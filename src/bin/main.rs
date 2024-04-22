@@ -165,6 +165,8 @@ async fn list(
 ) -> Result<(), Error> {
     let username = ctx.author().name.clone();
 
+
+    
     if sale_item == buy_item {
         ctx.say(format!(
             "Invalid listing: Sale item cannot be the same as the buy item\n{}",
@@ -184,6 +186,23 @@ async fn list(
     }
 
     let db = Connection::open("db.db3")?;
+
+    let listing_count: i32 = db.query_row(
+        "SELECT COUNT(*) FROM listings WHERE username = ?",
+        params![username],
+        |row| row.get(0),
+    )?;
+
+    if listing_count >= 15 {
+        ctx.say(format!(
+            "You have reached the maximum number of listings (15)\n{}",
+            ctx.author().mention()
+        ))
+        .await?;
+        return Ok(());
+    }
+
+
     if ctx.data().item_list.contains_key(&buy_item) && ctx.data().item_list.contains_key(&sale_item)
     {
         let listing_info = format!(
