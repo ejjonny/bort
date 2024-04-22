@@ -15,3 +15,6 @@ rusqlite = { version = "0.31.0", features = ["bundled"] }
 serde = "1.0.198"
 serenity = "0.12.1"
 tokio = { version = "1.0", features = ["macros", "rt-multi-thread"] }
+
+[profile.release]
+lto = "thin"

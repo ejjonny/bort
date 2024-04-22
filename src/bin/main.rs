@@ -174,7 +174,7 @@ async fn list(
     buy_item: String,
     #[description = "location north"] location_north: i32,
     #[description = "location east"] location_east: i32,
-    #[description = "offer count"] offer_count: i32,
+    #[description = "offer count"] offer_count: Option<i32>,
 ) -> Result<(), Error> {
     let username = ctx.author().name.clone();
 
@@ -213,6 +213,8 @@ async fn list(
         return Ok(());
     }
 
+    let offer_count = offer_count.unwrap_or(1);
+
     if ctx.data().item_list.contains_key(&buy_item) && ctx.data().item_list.contains_key(&sale_item)
     {
         let listing_info = format_listings(
@@ -225,7 +227,7 @@ async fn list(
                 location_north,
                 location_east,
                 user: username.clone(),
-                offer_count,
+                offer_count: offer_count,
             }],
             true,
             false,
