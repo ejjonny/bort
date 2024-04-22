@@ -1,3 +1,4 @@
+use memchr::memmem;
 use ::serenity::all::Mentionable;
 use clokwerk::AsyncScheduler;
 use clokwerk::TimeUnits;
@@ -48,7 +49,7 @@ async fn main() {
     println!("Loading items...");
 
     let cargo_items = load_items_from_file("items_cargo_data_utf16.txt").expect("Could not load items");
-    let item_items = load_items_from_file("items_cargo_data_utf16.txt").expect("Could not load items");
+    let item_items = load_items_from_file("items_item_data_utf16.txt").expect("Could not load items");
     let mut item_map: HashMap<String, bool> = HashMap::new();
     for item in cargo_items.iter().chain(item_items.iter()) {
         let name_with_tier = if item.tier != -1 {
@@ -58,9 +59,6 @@ async fn main() {
         };
         item_map.insert(name_with_tier, true);
     }
-
-    println!("Items: {:?}", cargo_items);
-    println!("Item Map: {:?}", item_map);
 
     let data = Data {
         item_list: item_map,
@@ -493,13 +491,16 @@ async fn autocomplete_item_name<'a>(
     ctx: Context<'_>,
     partial: &'a str,
 ) -> impl Stream<Item = String> + 'a {
-    let item_list = ctx
+    let lowercased = partial.to_lowercase();
+    let finder = memmem::Finder::new(lowercased.as_str());
+    let mut item_list = ctx
         .data()
         .item_list
         .keys()
         .cloned()
-        .filter(|name| name.to_lowercase().starts_with(&partial.to_lowercase()))
+        .filter(|item| { finder.find_iter(item.to_lowercase().as_bytes()).next().is_some() })
         .collect::<Vec<String>>();
+    item_list.truncate(15);
     futures::stream::iter(item_list)
 }
 
