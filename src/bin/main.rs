@@ -1,33 +1,34 @@
+use ::serenity::all::Mentionable;
 use clokwerk::AsyncScheduler;
 use clokwerk::TimeUnits;
+use futures::{Stream, StreamExt};
 use poise::serenity_prelude as serenity;
 use rusqlite::{params, Connection, Result};
 use std::collections::HashMap;
 use std::time::Duration;
 use std::{env, fs::File, io::Read};
-use futures::{Stream, StreamExt};
-
 
 struct Data {
     item_list: HashMap<String, bool>,
 }
 type Error = Box<dyn std::error::Error + Send + Sync>;
 type Context<'a> = poise::Context<'a, Data, Error>;
-
 struct Listing {
+    id: i32,
     sale_quantity: i32,
     sale_item: String,
     buy_quantity: i32,
     buy_item: String,
     location_north: i32,
     location_east: i32,
+    user: String,
+    offer_count: i32,
 }
 
 enum ItemQuery {
     SellingItem,
     BuyingItem,
 }
-
 
 #[tokio::main]
 async fn main() {
@@ -56,7 +57,13 @@ async fn main() {
 
     let framework = poise::Framework::builder()
         .options(poise::FrameworkOptions {
-            commands: vec![selling(), nearby_buyers(), nearby_sellers()],
+            commands: vec![
+                list(),
+                unlist(),
+                nearby_buyers(),
+                nearby_sellers(),
+                my_listings(),
+            ],
             ..Default::default()
         })
         .setup(|ctx, _ready, framework| {
@@ -73,13 +80,16 @@ async fn main() {
 
     let db = Connection::open("db.db3").expect("Db failed");
     db.execute(
-        "CREATE TABLE IF NOT EXISTS sell_listings (
+        "CREATE TABLE IF NOT EXISTS listings (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
             sale_quantity int,
             sale_item text,
             buy_quantity int,
             buy_item text,
             location_north int,
             location_east int,
+            username text,
+            offer_count int,
             timestamp timestamp DEFAULT CURRENT_TIMESTAMP
         )",
         (),
@@ -87,13 +97,13 @@ async fn main() {
     .expect("Table create failed");
 
     let mut scheduler = AsyncScheduler::new();
-    scheduler.every(1.minutes()).run(move || {
+    scheduler.every(10.minutes()).run(move || {
         Box::pin(async move {
             println!("Cleaning up old listings");
             let db = Connection::open("db.db3").expect("Db failed");
             let deleted_listings = db
                 .execute(
-                    "DELETE FROM sell_listings WHERE timestamp <= datetime('now', '-24 hours')",
+                    "DELETE FROM listings WHERE timestamp <= datetime('now', '-24 hours')",
                     (),
                 )
                 .expect("Failed to delete old listings");
@@ -112,54 +122,156 @@ async fn main() {
     client.unwrap().start().await.unwrap();
 }
 
+/// Unlist a listing
+#[poise::command(slash_command, prefix_command)]
+async fn unlist(
+    ctx: Context<'_>,
+    #[description = "listing ID"] listing_id: i32,
+) -> Result<(), Error> {
+    let username = ctx.author().name.clone();
+    let db = Connection::open("db.db3")?;
+    let result = db.execute(
+        "DELETE FROM listings WHERE id = ? AND username = ?",
+        params![listing_id, username],
+    )?;
+    if result > 0 {
+        ctx.say(format!(
+            "Listing successfully unlisted\n{}",
+            ctx.author().mention()
+        ))
+        .await?;
+    } else {
+        ctx.say(format!("Listing not found\n{}", ctx.author().mention()))
+            .await?;
+    }
+    Ok(())
+}
 
 /// Post a listing!
 #[poise::command(slash_command, prefix_command)]
-async fn selling(
+async fn list(
     ctx: Context<'_>,
-    #[description = "sale quantity"] 
-    sale_quantity: i32,
-    #[description = "sale item"] 
+    #[description = "sale quantity"] sale_quantity: i32,
+    #[description = "sale item"]
     #[autocomplete = "autocomplete_item_name"]
     sale_item: String,
-    #[description = "buy quantity"] 
-    buy_quantity: i32,
-    #[description = "buy item"] 
+    #[description = "buy quantity"] buy_quantity: i32,
+    #[description = "buy item"]
     #[autocomplete = "autocomplete_item_name"]
     buy_item: String,
-    #[description = "location north"] 
-    location_north: i32,
-    #[description = "location east"] 
-    location_east: i32,
+    #[description = "location north"] location_north: i32,
+    #[description = "location east"] location_east: i32,
+    #[description = "offer count"] offer_count: i32,
 ) -> Result<(), Error> {
+    let username = ctx.author().name.clone();
+
+    if sale_item == buy_item {
+        ctx.say(format!(
+            "Invalid listing: Sale item cannot be the same as the buy item\n{}",
+            ctx.author().mention()
+        ))
+        .await?;
+        return Ok(());
+    }
+
+    if buy_quantity == 0 || sale_quantity == 0 {
+        ctx.say(format!(
+            "Invalid listing: Buy quantity and sale quantity must be non-zero\n{}",
+            ctx.author().mention()
+        ))
+        .await?;
+        return Ok(());
+    }
+
     let db = Connection::open("db.db3")?;
     if ctx.data().item_list.contains_key(&buy_item) && ctx.data().item_list.contains_key(&sale_item)
     {
         let listing_info = format!(
-            "\nSale: {} x {}\nBuy: {} x {}\nLocation: ({}, {})\n",
-            sale_quantity, sale_item, buy_quantity, buy_item, location_north, location_east
+            "\nSelling: {} x {} for: {} x {}\nLocation: ({}, {})\n",
+            sale_quantity * offer_count, sale_item, buy_quantity * offer_count, buy_item, location_north, location_east
         );
         println!("{}", listing_info);
         db.execute(
-            "INSERT INTO sell_listings (sale_quantity, sale_item, buy_quantity, buy_item, location_north, location_east, timestamp)
-            VALUES (?, ?, ?, ?, ?, ?, CURRENT_TIMESTAMP)",
+            "INSERT INTO listings (sale_quantity, sale_item, buy_quantity, buy_item, location_north, location_east, username, timestamp, offer_count)
+            VALUES (?, ?, ?, ?, ?, ?, ?, CURRENT_TIMESTAMP, ?)",
             params![
                 sale_quantity,
                 sale_item,
                 buy_quantity,
                 buy_item,
                 location_north,
-                location_east
+                location_east,
+                username,
+                offer_count,
             ],
-        )?;
-        ctx.say("Listing successful! Your listing will expire in 24 hours.")
-            .await?;
+            )?;
+        println!("{}", listing_info);
+        ctx.say(format!(
+            "Listing successful! Your listing will expire in 24 hours\n{}\n{}",
+            listing_info,
+            ctx.author().mention()
+        ))
+        .await?;
         Ok(())
     } else {
-        let error_message = format!("Items {} and/or {} not found", buy_item, sale_item);
-        ctx.say(error_message).await?;
+        let error_message = format!(
+            "Items {} and/or {} not found.\n{}",
+            buy_item,
+            sale_item,
+            ctx.author().mention()
+        );
+        ctx.say(format!("{}, {}", error_message, ctx.author().mention()))
+            .await?;
         return Ok(());
     }
+}
+
+/// Check your own listings
+#[poise::command(slash_command)]
+async fn my_listings(ctx: Context<'_>) -> Result<(), Error> {
+    let username = ctx.author().name.clone();
+    let db = Connection::open("db.db3")?;
+    let listings = query_listings_by_username(&db, &username)?;
+    if listings.is_empty() {
+        ctx.say(format!("You have no listings.\n{}", ctx.author().mention()))
+            .await?;
+    } else {
+        let listings_info = format_listings(listings, false, true);
+        ctx.say(format!(
+            "Your listings:\n{}\n{}",
+            listings_info,
+            ctx.author().mention()
+        ))
+        .await?;
+    }
+    Ok(())
+}
+
+/// Query listings by username
+fn query_listings_by_username(db: &Connection, username: &str) -> Result<Vec<Listing>, Error> {
+    let mut stmt = db.prepare(
+        "SELECT id, sale_quantity, sale_item, buy_quantity, buy_item, location_north, location_east, offer_count
+        FROM listings
+        WHERE username = ?",
+    )?;
+    let queries = stmt.query_map(params![username], |row| {
+        Ok(Listing {
+            id: row.get(0)?,
+            sale_quantity: row.get(1)?,
+            sale_item: row.get(2)?,
+            buy_quantity: row.get(3)?,
+            buy_item: row.get(4)?,
+            location_north: row.get(5)?,
+            location_east: row.get(6)?,
+            user: username.to_string(),
+            offer_count: row.get(7)?,
+        })
+    })?;
+    let mut listings = Vec::<Listing>::new();
+    for q in queries {
+        listings.push(q?);
+    }
+    Ok(listings)
 }
 
 /// Search nearby sellers
@@ -167,7 +279,8 @@ async fn selling(
 async fn nearby_sellers(
     ctx: Context<'_>,
     #[autocomplete = "autocomplete_item_name"]
-    #[description = "sale item"] sale_item: String,
+    #[description = "sale item"]
+    sale_item: String,
     #[description = "location north"] location_north: i32,
     #[description = "location east"] location_east: i32,
     #[description = "distance"] distance: i32,
@@ -176,26 +289,38 @@ async fn nearby_sellers(
     let db = Connection::open("db.db3")?;
 
     if !ctx.data().item_list.contains_key(&sale_item) {
-        let error_message = format!("Item {} not found", sale_item);
+        let error_message = format!("Item {} not found\n{}", sale_item, ctx.author().mention());
         ctx.say(error_message).await?;
         return Ok(());
     }
 
-    let rows = get_listings_within_distance(&db, &sale_item, location_north, location_east, distance, ItemQuery::SellingItem)?;
+    let rows = get_listings_within_distance(
+        &db,
+        &sale_item,
+        location_north,
+        location_east,
+        distance,
+        ItemQuery::SellingItem,
+    )?;
     if rows.is_empty() {
-        ctx.say(
-            format!(
-                "No sellers of {} found within N ({} - {}) E ({} - {}).", 
-                sale_item, 
-                location_north - distance, 
-                location_north + distance,
-                location_east - distance, 
-                location_east + distance,
-            )
-        ).await?;
+        ctx.say(format!(
+            "No sellers of {} found within N ({} - {}) E ({} - {}).\n{}",
+            sale_item,
+            location_north - distance,
+            location_north + distance,
+            location_east - distance,
+            location_east + distance,
+            ctx.author().mention(),
+        ))
+        .await?;
     } else {
-        let sellers_info = format_listings(rows);
-        ctx.say(format!("Nearby sellers:\n{}", sellers_info)).await?;
+        let sellers_info = format_listings(rows, true, false);
+        ctx.say(format!(
+            "Nearby sellers:\n{}\n{}",
+            sellers_info,
+            ctx.author().mention()
+        ))
+        .await?;
     }
     Ok(())
 }
@@ -205,7 +330,8 @@ async fn nearby_sellers(
 async fn nearby_buyers(
     ctx: Context<'_>,
     #[autocomplete = "autocomplete_item_name"]
-    #[description = "buy item"] buy_item: String,
+    #[description = "buy item"]
+    buy_item: String,
     #[description = "location north"] location_north: i32,
     #[description = "location east"] location_east: i32,
     #[description = "distance"] distance: i32,
@@ -214,26 +340,37 @@ async fn nearby_buyers(
     let db = Connection::open("db.db3")?;
 
     if !ctx.data().item_list.contains_key(&buy_item) {
-        let error_message = format!("Item {} not found", buy_item);
+        let error_message = format!("Item {} not found {}", buy_item, ctx.author().mention());
         ctx.say(error_message).await?;
         return Ok(());
     }
 
-    let rows = get_listings_within_distance(&db, &buy_item, location_north, location_east, distance, ItemQuery::BuyingItem)?;
+    let rows = get_listings_within_distance(
+        &db,
+        &buy_item,
+        location_north,
+        location_east,
+        distance,
+        ItemQuery::BuyingItem,
+    )?;
     if rows.is_empty() {
-        ctx.say(
-            format!(
-                "No buyers of {} found within N ({} - {}) E ({} - {}).", 
-                buy_item, 
-                location_north - distance, 
-                location_north + distance,
-                location_east - distance, 
-                location_east + distance,
-            )
-        ).await?;
+        ctx.say(format!(
+            "No buyers of {} found within N ({} - {}) E ({} - {}).",
+            buy_item,
+            location_north - distance,
+            location_north + distance,
+            location_east - distance,
+            location_east + distance,
+        ))
+        .await?;
     } else {
-        let buyers_info = format_listings(rows);
-        ctx.say(format!("Nearby buyers:\n{}", buyers_info)).await?;
+        let buyers_info = format_listings(rows, true, false);
+        ctx.say(format!(
+            "Nearby buyers:\n{}\n{}",
+            buyers_info,
+            ctx.author().mention()
+        ))
+        .await?;
     }
     Ok(())
 }
@@ -251,10 +388,9 @@ fn get_listings_within_distance(
         ItemQuery::BuyingItem => (true, false),
         ItemQuery::SellingItem => (false, true),
     };
-
     let mut stmt = db.prepare(
-        "SELECT sale_quantity, sale_item, buy_quantity, buy_item, location_north, location_east
-        FROM sell_listings
+        "SELECT id, sale_quantity, sale_item, buy_quantity, buy_item, location_north, location_east, username, offer_count
+        FROM listings
         WHERE 
         ((buy_item = ?5 AND ?6) OR (sale_item = ?5 AND ?7))
         AND ABS(location_north - (?1)) <= (?2) AND ABS(location_east - (?3)) <= (?4)",
@@ -271,12 +407,15 @@ fn get_listings_within_distance(
         ],
         |row| {
             Ok(Listing {
-                sale_quantity: row.get(0)?,
-                sale_item: row.get(1)?,
-                buy_quantity: row.get(2)?,
-                buy_item: row.get(3)?,
-                location_north: row.get(4)?,
-                location_east: row.get(5)?,
+                id: row.get(0)?,
+                sale_quantity: row.get(1)?,
+                sale_item: row.get(2)?,
+                buy_quantity: row.get(3)?,
+                buy_item: row.get(4)?,
+                location_north: row.get(5)?,
+                location_east: row.get(6)?,
+                user: row.get(7)?,
+                offer_count: row.get(8)?,
             })
         },
     )?;
@@ -291,27 +430,49 @@ async fn autocomplete_item_name<'a>(
     ctx: Context<'_>,
     partial: &'a str,
 ) -> impl Stream<Item = String> + 'a {
-    let item_list = ctx.data().item_list.keys().cloned().collect::<Vec<String>>();
+    let item_list = ctx
+        .data()
+        .item_list
+        .keys()
+        .cloned()
+        .filter(|name| name.starts_with(partial))
+        .collect::<Vec<String>>();
     println!("Autocomplete item name function called");
     futures::stream::iter(item_list)
-        .filter(move |name| futures::future::ready(name.starts_with(partial)))
-        .map(|name: String| name.to_string())
 }
 
 /// Format a vector of listings into a string for display
-fn format_listings(listings: Vec<Listing>) -> String {
+fn format_listings(listings: Vec<Listing>, include_username: bool, include_id: bool) -> String {
     let mut formatted_listings = String::new();
+    let max_listings = 30;
+    let mut count = 0;
     for listing in listings {
+        if count >= max_listings {
+            formatted_listings.push_str("Too many listings to display all.");
+            break;
+        }
         let listing_info = format!(
-            "Sale: {} x {}\nBuy: {} x {}\nLocation: ({}, {})\n\n",
+            "ID: {}\nSale: {} x {}\nBuy: {} x {}\nLocation: ({}, {})\nOffer Count: {}\n{}\n\n",
+            if include_id {
+                listing.id.to_string()
+            } else {
+                String::new()
+            },
             listing.sale_quantity,
             listing.sale_item,
             listing.buy_quantity,
             listing.buy_item,
             listing.location_north,
-            listing.location_east
+            listing.location_east,
+            listing.offer_count,
+            if include_username {
+                format!("User: {}\n", listing.user)
+            } else {
+                String::new()
+            }
         );
         formatted_listings.push_str(&listing_info);
+        count += 1;
     }
     formatted_listings
 }
