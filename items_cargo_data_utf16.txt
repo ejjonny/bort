@@ -1,0 +1,156 @@
+﻿name                                   | tier
+ Fine Geode                            | 4    
+ Simple Wood Trunk                     | 2    
+ Rough Cart Material Pack              | 1    
+ Fine Cloth Tarp                       | 4    
+ Rough Clothing Materials Pack         | 1    
+ Abyssal Swordfish                     | 6    
+ Exquisite Untreated Plank Package     | 5    
+ Sturdy Wood Timber                    | 3    
+ Peerless Clothing Materials Pack      | 6    
+ 100 Supplies                          | -1   
+ Sturdy Leather Package                | 3    
+ Rough Geode                           | 1    
+ Rideable Deer                         | 1    
+ Expert's Skiff Material Pack          | 4    
+ 600 Supplies                          | -1   
+ Aurumite Ore Chunk                    | 2    
+ Large Cart Toolbox                    | 1    
+ Sturdy Stone Chunk                    | 3    
+ Simple Wood Plank Package             | 2    
+ Rough Rock Package                    | 1    
+ Sturdy Cloth Tarp                     | 3    
+ Rough Wood Trunk                      | 1    
+ 6000 Supplies                         | -1   
+ Elder Scrofa                          | 4    
+ Simple Wood Log Package               | 2    
+ Fine Leather Package                  | 4    
+ Sturdy Clothing Materials Pack        | 3    
+ Simple Wood Timber                    | 2    
+ Serpentfish                           | 2    
+ Peerless Timber                       | 6    
+ Simple Geode                          | 2    
+ Rough Cloth Package                   | 1    
+ Auric Ore Chunk                       | -1   
+ Female Scrofa                         | 3    
+ Ardea                                 | 4    
+ Peerless Stone Chunk                  | 6    
+ Fisher's Boat Material Pack           | 6    
+ Peerless Cloth Tarp                   | 6    
+ Sturdy Wood Plank Package             | 3    
+ Wavecrest Eel                         | 3    
+ Aurumite Ingot Package                | 2    
+ Lirium Ingot Package                  | 5    
+ Fine Cloth Package                    | 4    
+ Simple Leather Package                | 2    
+ Fine Rock Package                     | 4    
+ Female Cervus                         | 3    
+ Exquisite Stone Chunk                 | 5    
+ Peerless Stone Block                  | 6    
+ Ferralith Ore Chunk                   | 3    
+ Peerless Leather Package              | 6    
+ Exquisite Cloth Package               | 5    
+ Canoe Toolbox                         | 1    
+ 4000 Supplies                         | -1   
+ Fine Clothing Materials Pack          | 4    
+ Rough Large Cart Material Pack        | 1    
+ Exquisite Leather Package             | 5    
+ Pyrelite Ingot Package                | 1    
+ 5000 Supplies                         | -1   
+ 500 Supplies                          | -1   
+ 700 Supplies                          | -1   
+ Peerless Geode                        | 6    
+ Sagi Bird                             | 1    
+ Rough Raft Material Pack              | 1    
+ Fine Wood Log Package                 | 4    
+ Exquisite Geode                       | 5    
+ Cheater's Boat                        | 1    
+ Peerless Cloth Package                | 6    
+ Exquisite Cloth Tarp                  | 5    
+ Pyrelite Ore Chunk                    | 1    
+ Rough Untreated Plank Package         | 1    
+ Simple Untreated Plank Package        | 2    
+ 400 Supplies                          | -1   
+ Fine Trunk                            | 4    
+ Fine Untreated Plank Package          | 4    
+ Seastorm Tuna                         | 4    
+ 1000 Supplies                         | -1   
+ 8000 Supplies                         | -1   
+ Simple Stone Block                    | 2    
+ Male Cervus                           | 3    
+ Azure Shark                           | 5    
+ 20000 Supplies                        | -1   
+ Sturdy Rock Package                   | 3    
+ 900 Supplies                          | -1   
+ Exquisite Timber                      | 5    
+ Overwhelming Energy                   | -1   
+ Faint Energy                          | -1   
+ Peerless Trunk                        | 6    
+ Argent Ore Chunk                      | -1   
+ Simple Cloth Package                  | 2    
+ Rough Leather Package                 | 1    
+ 9000 Supplies                         | -1   
+ 16000 Supplies                        | -1   
+ Simple Clothing Materials Pack        | 2    
+ Peerless Wood Plank Package           | 6    
+ Fine Stone Block                      | 4    
+ Rangifer                              | 4    
+ Dromai                                | 5    
+ Sturdy Cloth Package                  | 3    
+ 800 Supplies                          | -1   
+ Rough Stone Chunk                     | 1    
+ Masterful Skiff Material Pack         | 5    
+ 7000 Supplies                         | -1   
+ Raft Toolbox                          | 1    
+ Cart Toolbox                          | 1    
+ Exquisite Wood Log Package            | 5    
+ Male Scrofa                           | 3    
+ 2000 Supplies                         | -1   
+ Exquisite Clothing Materials Pack     | 5    
+ Luminite Ore Chunk                    | 6    
+ Exquisite Stone Block                 | 5    
+ Yagi                                  | 6    
+ Nubi Goat                             | 2    
+ Fine Stone Chunk                      | 4    
+ Luminite Ingot Package                | 6    
+ Elenvar Ingot Package                 | 4    
+ Exquisite Wood Plank Package          | 5    
+ Rough Stone Block                     | 1    
+ Simple Rock Package                   | 2    
+ Simple Cloth Tarp                     | 2    
+ Rough Wood Plank Package              | 1    
+ Rough Cloth Tarp                      | 1    
+ Rough Skiff Material Pack             | 1    
+ Flint Chunk                           | 1    
+ 200 Supplies                          | -1   
+ Sturdy Untreated Plank Package        | 3    
+ Advanced Skiff Material Pack          | 3    
+ Lirium Ore Chunk                      | 5    
+ Rough Wood Timber                     | 1    
+ Sturdy Wood Trunk                     | 3    
+ 10000 Supplies                        | -1   
+ Simple Stone Chunk                    | 2    
+ Sturdy Geode                          | 3    
+ Improved Skiff Material Pack          | 2    
+ Exquisite Rock Package                | 5    
+ Fine Timber                           | 4    
+ 300 Supplies                          | -1   
+ Sturdy Stone Block                    | 3    
+ Rough Wood Log Package                | 1    
+ Elenvar Ore Chunk                     | 4    
+ Fisher's Boat                         | 1    
+ Peerless Untreated Plank Package      | 6    
+ Sturdy Wood Log Package               | 3    
+ Ferralith Ingot Package               | 3    
+ Peerless Rock Package                 | 6    
+ Peerless Wood Log Package             | 6    
+ 3000 Supplies                         | -1   
+ Oceancrest Marlin                     | 1    
+ Fine Wood Plank Package               | 4    
+ Exquisite Trunk                       | 5    
+ Rough Construction Materials Pack     | 1    
+ Simple Construction Materials Pack    | 2    
+ Sturdy Construction Materials Pack    | 3    
+ Fine Construction Materials Pack      | 4    
+ Exquisite Construction Materials Pack | 5    
+ Peerless Construction Materials Pack  | 6    

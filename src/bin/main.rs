@@ -1,12 +1,15 @@
 use ::serenity::all::Mentionable;
 use clokwerk::AsyncScheduler;
 use clokwerk::TimeUnits;
+use csv::ReaderBuilder;
 use futures::Stream;
 use poise::serenity_prelude as serenity;
 use rusqlite::{params, Connection, Result};
+use serde::Deserialize;
 use std::collections::HashMap;
+use std::io::Read;
 use std::time::Duration;
-use std::{env, fs::File, io::Read};
+use std::{env, fs::File};
 
 struct Data {
     item_list: HashMap<String, bool>,
@@ -30,6 +33,12 @@ enum ItemQuery {
     BuyingItem,
 }
 
+#[derive(Debug, Deserialize)]
+struct Item {
+    name: String,
+    tier: i32,
+}
+
 #[tokio::main]
 async fn main() {
     println!("Starting up...");
@@ -37,16 +46,22 @@ async fn main() {
     let token = env::var("DISCORD_TOKEN").expect("Expected a token in the environment");
 
     println!("Loading items...");
-    let current_dir = env::current_dir().expect("Failed to get current directory");
-    let file_path = current_dir.join("items.txt");
-    let mut file = File::open(file_path).expect("Failed to open file");
-    let mut item_strings = String::new();
-    file.read_to_string(&mut item_strings)
-        .expect("Failed to read file");
+
+    let cargo_items = load_items_from_file("items_cargo_data_utf16.txt").expect("Could not load items");
+    let item_items = load_items_from_file("items_cargo_data_utf16.txt").expect("Could not load items");
     let mut item_map: HashMap<String, bool> = HashMap::new();
-    for item in item_strings.lines() {
-        item_map.insert(item.to_string(), true);
+    for item in cargo_items.iter().chain(item_items.iter()) {
+        let name_with_tier = if item.tier != -1 {
+            format!("{} (T{})", item.name, item.tier)
+        } else {
+            item.name.clone()
+        };
+        item_map.insert(name_with_tier, true);
     }
+
+    println!("Items: {:?}", cargo_items);
+    println!("Item Map: {:?}", item_map);
+
     let data = Data {
         item_list: item_map,
     };
@@ -200,20 +215,19 @@ async fn list(
         return Ok(());
     }
 
-
     if ctx.data().item_list.contains_key(&buy_item) && ctx.data().item_list.contains_key(&sale_item)
     {
         let listing_info = format_listings(
             vec![Listing {
-            id: 0,
-            sale_quantity,
-            sale_item: sale_item.clone(),
-            buy_quantity,
-            buy_item: buy_item.clone(),
-            location_north,
-            location_east,
-            user: username.clone(),
-            offer_count,
+                id: 0,
+                sale_quantity,
+                sale_item: sale_item.clone(),
+                buy_quantity,
+                buy_item: buy_item.clone(),
+                location_north,
+                location_east,
+                user: username.clone(),
+                offer_count,
             }],
             true,
             false,
@@ -382,12 +396,13 @@ async fn nearby_buyers(
     )?;
     if rows.is_empty() {
         ctx.say(format!(
-            "No buyers of {} found within N ({} - {}) E ({} - {}).",
+            "No buyers of {} found within N ({} - {}) E ({} - {}).\n{}",
             buy_item,
             location_north - distance,
             location_north + distance,
             location_east - distance,
             location_east + distance,
+            ctx.author().mention(),
         ))
         .await?;
     } else {
@@ -400,6 +415,27 @@ async fn nearby_buyers(
         .await?;
     }
     Ok(())
+}
+
+fn load_items_from_file(file_name: &str) -> Result<Vec<Item>, Error> {
+    let mut items = Vec::<Item>::new();
+    let mut cargo_file = File::open(file_name)?;
+    let mut cargo_data_string = String::new();
+    cargo_file.read_to_string(&mut cargo_data_string)?;
+    let mut rdr = ReaderBuilder::new()
+        .delimiter(b'|')
+        .quoting(false)
+        .has_headers(true)
+        .from_reader(cargo_data_string.as_bytes());
+    rdr.records().for_each(|result| {
+        let record = result.expect("Failed to parse record");
+        let item = Item {
+            name: record[0].trim().to_string(),
+            tier: record[1].trim().parse().expect("Failed to parse tier"),
+        };
+        items.push(item);
+    });
+    Ok(items)
 }
 
 /// Get listings within a certain distance of a location

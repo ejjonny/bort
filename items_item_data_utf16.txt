@@ -1,0 +1,2004 @@
+﻿ name                                               | tier
+ Fine Chum                                          | 4    
+ Aurumite Machete                                   | 2    
+ Sapphire Inlaid Exquisite Cloth Hand Power Source  | 5    
+ Sturdy Plank Output                                | 3    
+ Succulent Raw Dumpling                             | 5    
+ Overloaded Exquisite Cloth Hand Power Source       | 5    
+ Ferralith Rod                                      | 3    
+ High Quality Lirium Head Power Source              | 5    
+ Overloaded Sturdy Leather Leg Power Source         | 3    
+ Schematic: Exquisite Overloaded Stone Module       | 5    
+ Potted Beech Sapling                               | 1    
+ Peerless Cloth Leg Power Source                    | 6    
+ Peerless Untreated Plank                           | 6    
+ Exquisite Brick                                    | 5    
+ Ripped Notes                                       | -1   
+ Perfected Aurumite Axe                             | 3    
+ Sapphire Inlaid Rough Cloth Head Power Source      | 1    
+ Pyrelite Machete                                   | 1    
+ Salt                                               | 1    
+ Flint Axe                                          | 1    
+ Exquisite Crop Oil                                 | 5    
+ Peerless Chilling Module                           | 6    
+ Schematic: Perfected Elenvar Scissors              | 4    
+ Ancient Enadarite                                  | -1   
+ Jacket                                             | 1    
+ Fine Mashed Bulbs                                  | 4    
+ Decayed Elenvar Pot                                | 4    
+ Peerless Fish Oil                                  | 6    
+ Ancient Bones                                      | 3    
+ Fine Sapphire                                      | 4    
+ Rough Leather Straps                               | 1    
+ Emberscale Sturgeon Filet                          | 5    
+ Hexfin Perch Filet                                 | 6    
+ Basic Embergrain Dough                             | 1    
+ Elenvar Head Power Source                          | 4    
+ Fine Pulsing Module                                | -1   
+ Peerless Mushroom                                  | 6    
+ Pyrelite Boots                                     | 1    
+ Sturdy Stone Hand Power Source                     | 3    
+ Ruby Inlaid Simple Leather Hand Power Source       | 2    
+ Fine Chilling Module                               | 4    
+ Decayed Elenvar Axe                                | 4    
+ Schematic: Rough Overloaded Stone Module           | 1    
+ Simple Pebbles Output                              | 2    
+ Stone Brazier Blueprint                            | 1    
+ Simple Repaired Ancient Mechanism                  | 2    
+ Advanced Key                                       | 6    
+ Decayed Aurumite Rod                               | 2    
+ Simple Leather Hand Power Source                   | 2    
+ Exquisite Medium Leather Output                    | 5    
+ Proficient Hieroglyphs                             | 4    
+ Ragged Dress                                       | 1    
+ Emerald Inlaid Rough Stone Torso Power Source      | 1    
+ Novice Hieroglyphs                                 | 2    
+ Overloaded Aurumite Leg Power Source               | 2    
+ Exquisite Repaired Ancient Wires                   | 5    
+ Fine Embergrain Plant                              | 4    
+ Perfected Pyrelite Scissors                        | 2    
+ High Quality Rough Cloth Module                    | 1    
+ Schematic: Perfected Lirium Rod                    | 5    
+ Sturdy Leather Leg Power Source                    | 3    
+ High Quality Sturdy Cloth Leg Power Source         | 3    
+ Ocean Footwraps                                    | 1    
+ Infused Starbulb                                   | 3    
+ Hexmoth Silk Cloth                                 | -1   
+ Simple Flower                                      | 2    
+ Rough Stone Head Power Source                      | 1    
+ Peerless Leather Hand Power Source                 | 6    
+ Diamond Inlaid Pyrelite Head Power Source          | 1    
+ Ambrosial Cooked Berries                           | 6    
+ Perfected Ferralith Chisel                         | 4    
+ Peerless Overloaded Module                         | -1   
+ Peerless Stone Torso Power Source                  | 6    
+ Perfected Lirium Knife                             | 6    
+ Argent Nugget                                      | -1   
+ Plain Meat Sandwich                                | 1    
+ Infused Fish Oil                                   | 3    
+ Fine Crop Oil                                      | 4    
+ Simple Stone Leg Power Source                      | 2    
+ Succulent Skewered Baitfish                        | 5    
+ Fine Roasted Meat                                  | 4    
+ Infused Clay Lump                                  | 3    
+ Ruby Inlaid Simple Leather Module                  | 2    
+ High Quality Rough Cloth                           | 1    
+ High Quality Aurumite Ingot                        | 2    
+ Schematic: Perfected Aurumite Hoe                  | 2    
+ Savory Fish and Bulbs                              | 2    
+ Simple Crop Oil                                    | 2    
+ Exquisite Emerald                                  | 5    
+ Decayed Ancient Hammer                             | -1   
+ Rough Ruby                                         | 1    
+ Fine Emerald                                       | 4    
+ Sapphire Inlaid Peerless Cloth Hand Power Source   | 6    
+ Uncut Rough Ruby                                   | 1    
+ Peerless Chum                                      | 6    
+ Basic Wispweave Products                           | 1    
+ Exquisite Tool Handle                              | 5    
+ Ancient Nails                                      | -1   
+ Beginner's Building Blueprint                      | 1    
+ Massive Simple Emerald                             | 2    
+ Zesty Bread                                        | 3    
+ Rough Unfired Forester's Pot                       | 1    
+ Plain Bulb Rolls                                   | 1    
+ Sapphire Inlaid Fine Cloth Module                  | 4    
+ Schematic: Perfected Lirium Machete                | 5    
+ Peerless Pebbles Output                            | 6    
+ Ruby Inlaid Exquisite Leather Torso Power Source   | 5    
+ Sturdy Tree Bark                                   | 3    
+ Plain Fish and Bulbs                               | 1    
+ Schematic: Perfected Ferralith Scissors            | 3    
+ Overloaded Rough Cloth Torso Power Source          | 1    
+ Proficient Stone Diagram Research                  | 4    
+ Perfected Lirium Quill                             | 6    
+ High Quality Simple Plank                          | 2    
+ Rough Cloth Leg Power Source                       | 1    
+ High Quality Pyrelite Leg Power Source             | 1    
+ Perfected Elenvar Hammer                           | 5    
+ Peerless Heated Torso Power Source                 | 6    
+ Fine Raw Berry Pie                                 | 4    
+ Elenvar Ingot                                      | 4    
+ Fine Fertilizer                                    | 4    
+ Red Plank Road Recipe                              | -1   
+ Decayed Pyrelite Machete                           | 1    
+ Decayed Elenvar Scissors                           | 4    
+ Boots of Haste                                     | 1    
+ Tiny Sturdy Ruby                                   | 3    
+ Perfected Ferralith Knife Recipe                   | 3    
+ Pyrelite Hammer                                    | 1    
+ Elenvar Axe                                        | 4    
+ Schematic: Perfected Aurumite Bow                  | 2    
+ Decayed Aurumite Pot                               | 2    
+ Infused Wispweave Plant                            | 3    
+ Perfected Luminite Hoe                             | 7    
+ Rough Vibrant Module                               | -1   
+ Emerald Inlaid Exquisite Stone Module              | 5    
+ High Quality Elenvar Ingot                         | 4    
+ Zesty Roasted Fish                                 | 3    
+ Decayed Luminite Machete                           | 6    
+ Perfected Luminite Knife                           | 7    
+ Decayed Elenvar Pickaxe                            | 4    
+ Ambrosial Roasted Fish                             | 6    
+ Rough Repaired Hand Power Source                   | 1    
+ Simple Leather Torso Power Source                  | 2    
+ Peerless Unpowered Leather Module                  | 6    
+ Fine Mortar                                        | 4    
+ Perfected Pyrelite Hammer                          | 2    
+ Rough Raw Pelt                                     | 1    
+ High Quality Pyrelite Torso Power Source           | 1    
+ Peerless Rock                                      | 6    
+ High Quality Luminite Torso Power Source           | 6    
+ Schematic: Perfected Pyrelite Hammer               | 1    
+ Schematic: Perfected Aurumite Knife                | 2    
+ Exquisite Mushroom                                 | 5    
+ Exquisite Surging Module                           | -1   
+ Deed: Dev                                          | -1   
+ Rough Fabric                                       | 1    
+ Diamond Inlaid Lirium Hand Power Source            | 5    
+ Perfected Luminite Pot                             | 7    
+ Sapphire Inlaid Exquisite Cloth Torso Power Source | 5    
+ Knapped Flint                                      | 1    
+ Infused Embergrain                                 | 3    
+ Ruby Inlaid Exquisite Leather Module               | 5    
+ Simple Repaired Ancient Gear                       | 2    
+ Deed: Mask Pattern - Arch Yellow                   | -1   
+ Perfected Aurumite Hammer Recipe                   | 2    
+ Luminite Nails                                     | 6    
+ Simple Brick                                       | 2    
+ Ancient Journal Page #1                            | -1   
+ Molten Ferralith                                   | 3    
+ Auric Ingot                                        | -1   
+ Rough Rope                                         | 1    
+ Massive Fine Diamond                               | 4    
+ Wavecrest Eel Products                             | 3    
+ Exquisite Unpowered Leather Module                 | 5    
+ Unpowered Pyrelite Module                          | 1    
+ Diamond Inlaid Lirium Leg Power Source             | 5    
+ Decayed Ferralith Hammer                           | 3    
+ Sturdy Repaired Ancient Mechanism                  | 3    
+ Exquisite Repaired Ancient Connector               | 5    
+ Simple Surging Module                              | -1   
+ Sturdy Heated Torso Power Source                   | 3    
+ Fine Wispweave Seeds                               | 4    
+ Ocean Belt                                         | 1    
+ Decayed Luminite Axe                               | 6    
+ Novice Study Journal                               | 2    
+ Proficient Building Blueprint                      | 4    
+ Deed: Hair Color - Hexite                          | -1   
+ Overloaded Ferralith Leg Power Source              | 3    
+ Deed: Mask - Feline Mask                           | -1   
+ Simple Bait and Shells                             | 2    
+ Overloaded Lirium Head Power Source                | 5    
+ Succulent Raw Berry Pie                            | 5    
+ Hunter's Bow Recipe                                | 1    
+ Sturdy Wood Log                                    | 3    
+ Exquisite Stone Head Power Source                  | 5    
+ Serpentfish Scale                                  | 2    
+ Overloaded Peerless Cloth Head Power Source        | 6    
+ Exquisite Blank Journal                            | 5    
+ Ruby Inlaid Rough Leather Leg Power Source         | 1    
+ Apprehensive Adventurer's Note                     | -1   
+ Molten Lirium                                      | 5    
+ Rough Leather Hand Power Source                    | 1    
+ Pyrelite Helmet                                    | 1    
+ Schematic: Perfected Lirium Hoe                    | 5    
+ Mask Fragment                                      | -1   
+ Grand Fine Diamond                                 | 4    
+ Schematic: Perfected Elenvar Pot                   | 4    
+ Uncut Sturdy Diamond                               | 3    
+ Fine Clay Lump                                     | 4    
+ Starseeker Researcher's Robe                       | 5    
+ Savory Chilling Tea                                | 2    
+ Infused Embergrain Flour                           | 3    
+ Infused Fertilizer                                 | 3    
+ Ruby Inlaid Rough Leather Head Power Source        | 1    
+ Oceancrest Marlin Filet                            | 1    
+ Aurumite Ingot                                     | 2    
+ Uncut Fine Sapphire                                | 4    
+ Overloaded Elenvar Torso Power Source              | 4    
+ Lirium Scissors                                    | 5    
+ Ruby Inlaid Exquisite Leather Leg Power Source     | 5    
+ Decayed Luminite Hammer                            | 6    
+ Pyrelite Torso Power Source                        | 1    
+ Infused Starbulb Plant                             | 3    
+ Leather Bonnet                                     | 1    
+ Overloaded Pyrelite Torso Power Source             | 1    
+ Luminite Machete                                   | 6    
+ Fine Leather Torso Power Source                    | 4    
+ High Quality Fine Leather Torso Power Source       | 4    
+ Warming Energy                                     | -1   
+ Exquisite Embergrain Plant                         | 5    
+ Lirium Head Power Source                           | 5    
+ Schematic: Exquisite Overloaded Cloth Module       | 5    
+ Ferralith Ingot Output                             | 3    
+ Tiny Simple Sapphire                               | 2    
+ Uncut Simple Ruby                                  | 2    
+ Immortal Soldier's Cap                             | 3    
+ Tiny Fine Emerald                                  | 4    
+ Uncut Rough Sapphire                               | 1    
+ Immortal Recruit's Gloves                          | 1    
+ Savory Ground Meat and Mashed Bulbs                | 2    
+ Sturdy Pebbles                                     | 3    
+ Starseeker Scribe's Robe                           | 3    
+ Schematic: Perfected Elenvar Saw                   | 4    
+ Small Piece of Auric Ore                           | -1   
+ Infused Bait and Shells                            | 3    
+ High Quality Ferralith Head Power Source           | 3    
+ Exquisite Heated Torso Power Source                | 5    
+ High Quality Simple Leather Torso Power Source     | 2    
+ Perfected Ferralith Hammer Recipe                  | 3    
+ Schematic: Overloaded Aurumite Module              | 2    
+ Schematic: Heated Capacitor                        | -1   
+ Tiny Simple Ruby                                   | 2    
+ Peerless Repaired Ancient Wires                    | 6    
+ High Quality Rough Leather Head Power Source       | 1    
+ Grand Fine Ruby                                    | 4    
+ Simple Cloth Output                                | 2    
+ Savory Jam Sandwich                                | 2    
+ Zesty Skewered Baitfish                            | 3    
+ Sapphire Inlaid Peerless Cloth Torso Power Source  | 6    
+ Tropical Shirt and Skirt                           | 1    
+ Ferralith Bow                                      | 3    
+ Simple Cloth Hand Power Source                     | 2    
+ Massive Sturdy Diamond                             | 3    
+ Decayed Lirium Hoe                                 | 5    
+ Ambrosial Chilling Tea                             | 6    
+ Diamond Inlaid Luminite Head Power Source          | 6    
+ Peerless Pigment                                   | 6    
+ Peerless Gem                                       | 6    
+ Ragged Shorts                                      | 1    
+ Deed: Hairstyle - High Ponytail                    | -1   
+ Immortal Sergeant's Boots                          | 1    
+ Simple Clay Lump                                   | 2    
+ Decayed Pyrelite Bow                               | 1    
+ Azure Shark Scale                                  | 5    
+ Decayed Aurumite Bow                               | 2    
+ Tiny Peerless Emerald                              | 6    
+ Ferralith Hammer                                   | 3    
+ Fine Bait                                          | 4    
+ Perfected Luminite Tool Research                   | 6    
+ Rough Cloth Torso Power Source                     | 1    
+ Ruby Inlaid Sturdy Leather Head Power Source       | 3    
+ Pyrelite Pot                                       | 1    
+ Short Sleeved Rough Shirt                          | 1    
+ Rough Cloth Head Power Source                      | 1    
+ Schematic: Perfected Pyrelite Knife                | 1    
+ Flint Machete                                      | 1    
+ Ferralith Machete                                  | 3    
+ Exquisite Sapphire                                 | 5    
+ Perfected Pyrelite Quill                           | 2    
+ Fine Bait and Shells                               | 4    
+ Grand Exquisite Ruby                               | 5    
+ Grand Sturdy Emerald                               | 3    
+ Ragged Long Sleeve Rough Shirt                     | 1    
+ Exquisite Cloth Leg Power Source                   | 5    
+ Developer Chisel                                   | 3    
+ Exquisite Cleaned Pelt                             | 5    
+ Grass Sandals                                      | 1    
+ Exquisite Vibrant Module                           | -1   
+ Badly Damaged Torso Power Source                   | 1    
+ Decayed Lirium Bow                                 | 5    
+ Decayed Lirium Chisel                              | 5    
+ Perfected Ferralith Rod                            | 4    
+ Schematic: Perfected Pyrelite Saw                  | 1    
+ Perfected Luminite Saw                             | 7    
+ Exquisite Bait                                     | 5    
+ Decayed Ancient Pot                                | -1   
+ Perfected Pyrelite Pickaxe                         | 2    
+ Succulent Bulb Rolls                               | 5    
+ Deed: Hair Color - White                           | -1   
+ Perfected Aurumite Tool Research                   | 2    
+ Succulent Raw Bulb Rolls                           | 5    
+ Beginner's Stone Diagrams                          | 1    
+ Perfected Aurumite Tipped Quill Recipe             | 2    
+ Rough Forester's Pot                               | 1    
+ Decayed Elenvar Quill                              | 4    
+ Simple Leather                                     | 2    
+ Rough Vest                                         | 1    
+ Uncut Fine Diamond                                 | 4    
+ Simple Chum                                        | 2    
+ Ambrosial Dumpling                                 | 6    
+ Basic Ink                                          | 1    
+ Decayed Pyrelite Quill                             | 1    
+ Exquisite Repaired Ancient Gear                    | 5    
+ Uncut Exquisite Diamond                            | 5    
+ Fine Cleaned Pelt                                  | 4    
+ Infused Embergrain Seeds                           | 3    
+ Succulent Dumpling                                 | 5    
+ Diamond Inlaid Pyrelite Module                     | 1    
+ Breezy Fin Darter                                  | 1    
+ Perfected Luminite Bow                             | 7    
+ Hexfin Perch                                       | 6    
+ Deed: Hairstyle - Full Mohawk                      | -1   
+ Leather Trousers                                   | 1    
+ Peerless Repaired Ancient Connector                | 6    
+ Schematic: Perfected Luminite Pickaxe              | 6    
+ Schematic: Perfected Aurumite Quill                | 2    
+ Exquisite Wispweave Plant                          | 5    
+ Sturdy Raw Pelt                                    | 3    
+ Simple Forester's Pot                              | 2    
+ High Quality Simple Cloth Head Power Source        | 2    
+ Essential Building Blueprint                       | 3    
+ Overloaded Fine Cloth Module                       | 4    
+ Aurumite Hammer                                    | 2    
+ Tiny Peerless Ruby                                 | 6    
+ Lirium Machete                                     | 5    
+ Fine Cloth Torso Power Source                      | 4    
+ Emerald Inlaid Peerless Stone Head Power Source    | 6    
+ Ancient Components                                 | -1   
+ Brico's Mallet                                     | 1    
+ Decayed Ferralith Tool                             | 3    
+ Sapphire Inlaid Fine Cloth Leg Power Source        | 4    
+ Schematic: Perfected Elenvar Hoe                   | 4    
+ Ancient Trapsmith's Journal Page #2                | -1   
+ Zesty Raw Berry Pie                                | 3    
+ Immortal Soldier's Belt                            | 3    
+ Fine Berry                                         | 4    
+ Fine Pigment                                       | 4    
+ Master Tool                                        | 1    
+ Deed: Mask Pattern - Runic Blue                    | -1   
+ Decayed Elenvar Bow                                | 4    
+ Exquisite Starbulb Products                        | 5    
+ Exquisite Embergrain                               | 5    
+ High Quality Simple Cloth Torso Power Source       | 2    
+ Ambrosial Raw Berry Pie                            | 6    
+ Schematic: Fine Overloaded Leather Module          | 4    
+ Decayed Ferralith Pickaxe                          | 3    
+ Peerless Shell                                     | 6    
+ Schematic: Perfected Luminite Scissors             | 6    
+ Simple Leather Head Power Source                   | 2    
+ Rough Stone Hand Power Source                      | 1    
+ Decayed Lirium Axe                                 | 5    
+ Fine Pebbles Output                                | 4    
+ Ocean Armwraps                                     | 1    
+ Ambrosial Vegetable Stew                           | 6    
+ High Quality Luminite Head Power Source            | 6    
+ High Quality Sturdy Leather Hand Power Source      | 3    
+ Rough Surging Module                               | -1   
+ Savory Raw Dumpling                                | 2    
+ Unpowered Elenvar Module                           | 4    
+ Fingerless Leather Gloves                          | 1    
+ Lirium Leg Power Source                            | 5    
+ Zesty Raw Bulb Rolls                               | 3    
+ Simple Starbulb Products                           | 2    
+ Tiny Simple Diamond                                | 2    
+ Overloaded Peerless Leather Torso Power Source     | 6    
+ High Quality Exquisite Leather Module              | 5    
+ Schematic: Rough Overloaded Leather Module         | 1    
+ Perfected Ferralith Axe Recipe                     | 3    
+ Uncut Fine Emerald                                 | 4    
+ Studded Leather Pants                              | 1    
+ Schematic: Sturdy Overloaded Stone Module          | 3    
+ Sturdy Untreated Plank                             | 3    
+ Elenvar Machete                                    | 4    
+ Badly Damaged Hand Power Source                    | 1    
+ Elenvar Leg Power Source                           | 4    
+ Decayed Aurumite Saw                               | 2    
+ Sturdy Plant Fiber                                 | 3    
+ Perfected Aurumite Hoe                             | 3    
+ Simple Starbulb                                    | 2    
+ High Quality Aurumite Module                       | 2    
+ Comprehensive Stone Diagram Research               | 6    
+ Perfected Pyrelite Scissors Recipe                 | 1    
+ Rough Spool Of Thread                              | 1    
+ Decayed Pyrelite Chisel                            | 1    
+ Overloaded Exquisite Leather Torso Power Source    | 5    
+ Sturdy Unpowered Stone Module                      | 3    
+ Sapphire Inlaid Rough Cloth Leg Power Source       | 1    
+ Emerald Inlaid Rough Stone Leg Power Source        | 1    
+ Flint Tool Bundle                                  | 1    
+ Maple Seed                                         | 3    
+ Peerless Ink                                       | 6    
+ Novice Stone Diagrams                              | 2    
+ Decayed Ancient Saw                                | -1   
+ Rough Repaired Torso Power Source                  | 1    
+ Well Made Long Shorts                              | 1    
+ High Quality Peerless Leather Torso Power Source   | 6    
+ Sturdy Cloth                                       | 3    
+ Rough Plank                                        | 1    
+ Mossfin Chub Products                              | 4    
+ Schematic: Perfected Ferralith Pot                 | 3    
+ Zesty Berry Pie                                    | 3    
+ Schematic: Perfected Pyrelite Rod                  | 1    
+ High Quality Sturdy Cloth Head Power Source        | 3    
+ Fine Charcoal                                      | 4    
+ Rough Pulsing Module                               | -1   
+ Unpowered Lirium Module                            | 5    
+ Plain Skewered Baitfish                            | 1    
+ Basic Starbulb                                     | 1    
+ Deed: Expert's Skiff                               | 1    
+ Elenvar Chisel                                     | 4    
+ Rough Short Skirt                                  | 1    
+ Heated Capacitor                                   | -1   
+ Massive Peerless Emerald                           | 6    
+ Perfected Aurumite Axe Recipe                      | 2    
+ Schematic: Perfected Pyrelite Pickaxe              | 1    
+ Schematic: Perfected Pyrelite Axe                  | 1    
+ Schematic: Perfected Ferralith Rod                 | 3    
+ Schematic: Simple Overloaded Stone Module          | 2    
+ Peerless Embergrain Plant                          | 6    
+ High Quality Aurumite Leg Power Source             | 2    
+ Simple Pigment                                     | 2    
+ Simple Cleaned Pelt                                | 2    
+ Overloaded Exquisite Leather Head Power Source     | 5    
+ Simple Embergrain Seeds                            | 2    
+ Schematic: Perfected Elenvar Bow                   | 4    
+ Infused Mushroom                                   | 3    
+ Sturdy Leather Torso Power Source                  | 3    
+ Overloaded Exquisite Leather Hand Power Source     | 5    
+ Simple Starbulb Seeds                              | 2    
+ Seastorm Tuna Scale                                | 4    
+ Schematic: Cooling Capacitor                       | -1   
+ Deed: Mask - Pointed Ear Mask                      | -1   
+ Sunrise Shrimp                                     | 6    
+ Energy or Notes                                    | -1   
+ Exquisite Unpowered Stone Module                   | 5    
+ Exquisite Pigment                                  | 5    
+ Overloaded Ferralith Module                        | 3    
+ Perfected Lirium Tool Research                     | 5    
+ Schematic: Perfected Lirium Bow                    | 5    
+ Immortal Recruit's Cap                             | 1    
+ High Quality Fine Plank                            | 4    
+ Deed: Mask Pattern - Waves Blue                    | -1   
+ Simple Embergrain                                  | 2    
+ Diamond Inlaid Luminite Module                     | 6    
+ Rough Pebbles Output                               | 1    
+ Coralcrest Darter                                  | 3    
+ Exquisite Fabric                                   | 5    
+ High Quality Exquisite Leather Hand Power Source   | 5    
+ Perfected Lirium Machete                           | 6    
+ Fine Heated Module                                 | 4    
+ Ambrosial Mushroom Skewer                          | 6    
+ Simple Plank Output                                | 2    
+ Peerless Forester's Pot                            | 6    
+ Schematic: Peerless Overloaded Stone Module        | 6    
+ Potted Dendro Sapling                              | 2    
+ Fine Gem                                           | 4    
+ Crushed Piece of Auric Ore                         | -1   
+ Elenvar Scissors                                   | 4    
+ High Quality Aurumite Torso Power Source           | 2    
+ Sturdy Leather Head Power Source                   | 3    
+ High Quality Peerless Cloth Leg Power Source       | 6    
+ Overloaded Sturdy Leather Torso Power Source       | 3    
+ High Quality Rough Leather Module                  | 1    
+ Plain Dumpling                                     | 1    
+ Sturdy Shell                                       | 3    
+ Peerless Tannin                                    | 6    
+ Emerald Inlaid Fine Stone Hand Power Source        | 4    
+ Zesty Roasted Ocean Fish                           | 3    
+ Rough Unpowered Leather Module                     | 1    
+ Ferralith Ingot                                    | 3    
+ Zesty Dumpling                                     | 3    
+ Decayed Aurumite Chisel                            | 2    
+ Hex Coin                                           | -1   
+ Emerald Inlaid Fine Stone Torso Power Source       | 4    
+ Overloaded Ferralith Torso Power Source            | 3    
+ Dried Infused Flowers                              | 3    
+ Pyrelite Quill                                     | 1    
+ Overloaded Luminite Torso Power Source             | 6    
+ Fine Heated Torso Power Source                     | 4    
+ Schematic: Perfected Luminite Quill                | 6    
+ Immortal Recruit's Tunic                           | 1    
+ Massive Exquisite Emerald                          | 5    
+ Ferralith Scissors                                 | 3    
+ Exquisite Plank                                    | 5    
+ Perfected Aurumite Pickaxe Recipe                  | 2    
+ Helpful Adventurer's Note                          | -1   
+ Perfected Pyrelite Sickle Recipe                   | 1    
+ Perfected Ferralith Sickle Recipe                  | 3    
+ Rough Overloaded Module                            | -1   
+ Simple Pulsing Module                              | -1   
+ Exquisite Cloth Hand Power Source                  | 5    
+ Zesty Trailmix                                     | 3    
+ Schematic: Perfected Lirium Saw                    | 5    
+ Aurumite Armguards                                 | 2    
+ Schematic: Perfected Pyrelite Pot                  | 1    
+ Uncut Exquisite Emerald                            | 5    
+ Simple Mortar                                      | 2    
+ Exquisite Wispweave Filament                       | 5    
+ Fine Dried Pelt                                    | 4    
+ Lirium Pot                                         | 5    
+ High Quality Luminite Ingot                        | 6    
+ Simple Bait                                        | 2    
+ Grand Simple Ruby                                  | 2    
+ Overloaded Pyrelite Head Power Source              | 1    
+ Massive Fine Sapphire                              | 4    
+ Emerald Inlaid Sturdy Stone Hand Power Source      | 3    
+ Exquisite Embergrain Dough                         | 5    
+ Rough Wood Log                                     | 1    
+ Sapphire Inlaid Rough Cloth Hand Power Source      | 1    
+ Rough Leather Head Power Source                    | 1    
+ Sapphire Inlaid Sturdy Cloth Leg Power Source      | 3    
+ Rough Diamond                                      | 1    
+ Perfected Pyrelite Saw Recipe                      | 1    
+ Decayed Luminite Bow                               | 6    
+ Cypress Seed                                       | 4    
+ Novice Stone Diagram Research                      | 2    
+ Grand Peerless Emerald                             | 6    
+ Decayed Elenvar Bow                                | 4    
+ Blue Cobblestone Road Recipe                       | -1   
+ Perfected Aurumite Knife                           | 3    
+ Diamond Inlaid Aurumite Module                     | 2    
+ Fine Twine                                         | 4    
+ Exquisite Leather Leg Power Source                 | 5    
+ Fine Forester's Pot                                | 4    
+ Overloaded Simple Cloth Leg Power Source           | 2    
+ Ambrosial Bulb Rolls                               | 6    
+ Schematic: Perfected Aurumite Axe                  | 2    
+ Peerless Berry                                     | 6    
+ Schematic: Overloaded Ferralith Module             | 3    
+ Red Cobblestone Road Recipe                        | -1   
+ Simple Repaired Ancient Connector                  | 2    
+ Decayed Elenvar Rod                                | 4    
+ Fine Radiant Module                                | -1   
+ Serpentfish Filet                                  | 2    
+ Perfected Aurumite Sickle Recipe                   | 2    
+ Ferralith Hoe                                      | 3    
+ Simple Mushroom                                    | 2    
+ Grand Exquisite Emerald                            | 5    
+ Overloaded Fine Leather Torso Power Source         | 4    
+ Rough Unpowered Cloth Module                       | 1    
+ Simple Raw Meat                                    | 2    
+ Uncut Peerless Diamond                             | 6    
+ Beginner's Stone Diagram Research                  | 1    
+ Decayed Pyrelite Knife                             | 1    
+ Infused Gem Dust                                   | 3    
+ Fine Starbulb Seeds                                | 4    
+ Grand Peerless Ruby                                | 6    
+ Succulent Vegetable Stew                           | 5    
+ Perfected Elenvar Scissors                         | 5    
+ Infused Berry                                      | 3    
+ Fine Glowing Module                                | 4    
+ Savory Hot Tea                                     | 2    
+ Flint Hoe                                          | 1    
+ Elenvar Ore Piece                                  | 4    
+ Potted Willow Sapling                              | 3    
+ Fine Wispweave Products                            | 4    
+ Ferralith Pot                                      | 3    
+ Grand Fine Emerald                                 | 4    
+ Deed: Mask - Uneven Horn Mask                      | -1   
+ High Quality Fine Leather Hand Power Source        | 4    
+ Peerless Raw Pelt                                  | 6    
+ Ruby Inlaid Peerless Leather Head Power Source     | 6    
+ Aurumite Head Power Source                         | 2    
+ Luminite Leg Power Source                          | 6    
+ Rough Untreated Plank                              | 1    
+ High Quality Luminite Hand Power Source            | 6    
+ Overloaded Simple Leather Hand Power Source        | 2    
+ Flint Bow                                          | 1    
+ Schematic: Perfected Ferralith Saw                 | 3    
+ Essential Stone Diagrams                           | 3    
+ Simple Overloaded Module                           | -1   
+ Basic Flower                                       | 1    
+ Schematic: Perfected Luminite Hoe                  | 6    
+ Sturdy Cloth Head Power Source                     | 3    
+ Basic Crop Oil                                     | 1    
+ Simple Unpowered Leather Module                    | 2    
+ Diamond Inlaid Pyrelite Torso Power Source         | 1    
+ Overloaded Luminite Head Power Source              | 6    
+ Empty Bucket                                       | -1   
+ Rough Parchment                                    | 1    
+ Damaged Ancient Gear                               | -1   
+ High Quality Peerless Cloth Hand Power Source      | 6    
+ Plain Raw Dumpling                                 | 1    
+ Decayed Ferralith Quill                            | 3    
+ Decayed Ferralith Knife                            | 3    
+ Rough Repaired Ancient Resistor                    | 1    
+ Sturdy Ruby                                        | 3    
+ Sturdy Cloth Torso Power Source                    | 3    
+ Deed: Mask Pattern - Waves Pink                    | -1   
+ Ferralith Hand Power Source                        | 3    
+ Sturdy Repaired Ancient Resistor                   | 3    
+ Tiny Peerless Diamond                              | 6    
+ Loose Rough Pants                                  | 1    
+ Fine Plank                                         | 4    
+ Massive Simple Sapphire                            | 2    
+ Rough Brick                                        | 1    
+ High Quality Fine Cloth Torso Power Source         | 4    
+ Rough Shell                                        | 1    
+ Simple Rough Armwraps                              | 1    
+ High Quality Simple Leather                        | 2    
+ Exquisite Raw Meat                                 | 5    
+ Schematic: Perfected Pyrelite Machete              | 1    
+ Decayed Ferralith Pot                              | 3    
+ Sturdy Pulsing Module                              | -1   
+ Massive Peerless Sapphire                          | 6    
+ Massive Rough Ruby                                 | 1    
+ Grand Sturdy Sapphire                              | 3    
+ Lirium Ore Concentrate                             | 5    
+ Comprehensive Building Blueprint                   | 6    
+ Ancient Research                                   | 1    
+ High Quality Rough Cloth Torso Power Source        | 1    
+ Massive Exquisite Ruby                             | 5    
+ Overloaded Luminite Leg Power Source               | 6    
+ Decayed Luminite Quill                             | 6    
+ Perfected Pyrelite Axe Recipe                      | 1    
+ Schematic: Perfected Luminite Rod                  | 6    
+ Fine Hot Tea                                       | 4    
+ Decayed Ferralith Scissors                         | 3    
+ Pyrelite Nails                                     | 1    
+ Sapphire Inlaid Rough Cloth Module                 | 1    
+ Pyrelite Rod                                       | 1    
+ Aurumite Ore Piece                                 | 2    
+ Perfected Pyrelite Tipped Quill Recipe             | 1    
+ Schematic: Perfected Aurumite Hammer               | 2    
+ Tiny Fine Diamond                                  | 4    
+ Deed: Cart                                         | 1    
+ Grand Rough Sapphire                               | 1    
+ Fine Rock                                          | 4    
+ Peerless Pulsing Module                            | -1   
+ Aurumite Pot                                       | 2    
+ Pine Seed                                          | 3    
+ Pyrelite Plated Pants                              | 1    
+ Schematic: Perfected Lirium Chisel                 | 5    
+ Basic Wispweave Plant                              | 1    
+ Sturdy Overloaded Module                           | -1   
+ Aurumite Quill                                     | 2    
+ Flint Pot                                          | 1    
+ Perfected Elenvar Saw                              | 5    
+ Decayed Elenvar Machete                            | 4    
+ Simple Belt                                        | 1    
+ Ferralith Head Power Source                        | 3    
+ Simple Sapphire                                    | 2    
+ Ruby Inlaid Sturdy Leather Hand Power Source       | 3    
+ Simple Spool Of Thread                             | 2    
+ Crushed Ferralith Ore                              | 3    
+ Fine Unfired Forester's Pot                        | 4    
+ Overloaded Elenvar Head Power Source               | 4    
+ Emerald Inlaid Exquisite Stone Leg Power Source    | 5    
+ Ruby Inlaid Exquisite Leather Head Power Source    | 5    
+ Luminite Knife                                     | 6    
+ Perfected Aurumite Rod                             | 3    
+ Exquisite Untreated Plank                          | 5    
+ Simple Berry                                       | 2    
+ High Quality Exquisite Leather Leg Power Source    | 5    
+ Rough Emerald                                      | 1    
+ Wooden Armguards                                   | 1    
+ Savory Mushroom Skewer                             | 2    
+ Ancient Key                                        | 2    
+ Perfected Ferralith Machete                        | 4    
+ Sapphire Inlaid Simple Cloth Leg Power Source      | 2    
+ Aurumite Hand Power Source                         | 2    
+ Infused Crop Oil                                   | 3    
+ Decayed Ferralith Bow                              | 3    
+ Diamond Inlaid Lirium Head Power Source            | 5    
+ Decayed Aurumite Bow                               | 2    
+ Plain Bread                                        | 1    
+ Exquisite Tree Bark                                | 5    
+ Massive Peerless Ruby                              | 6    
+ Lirium Saw                                         | 5    
+ Plain Mushroom Skewer                              | 1    
+ Schematic: Heimlich's House                        | -1   
+ Fine Stone Hand Power Source                       | 4    
+ Plain Ground Meat and Mashed Bulbs                 | 1    
+ High Quality Pyrelite Head Power Source            | 1    
+ Diamond Inlaid Elenvar Torso Power Source          | 4    
+ Dark Plank Road Recipe                             | -1   
+ Ruby Inlaid Peerless Leather Hand Power Source     | 6    
+ Zesty Ground Meat and Mashed Bulbs                 | 3    
+ Pointed Cap                                        | 1    
+ Decayed Ferralith Axe                              | 3    
+ Perfected Lirium Hammer                            | 6    
+ Decayed Ferralith Machete                          | 3    
+ Plain Raw Berry Pie                                | 1    
+ Luminite Bow                                       | 6    
+ Immortal Soldier's Tunic                           | 3    
+ Fine Fish Oil                                      | 4    
+ High Quality Exquisite Plank                       | 5    
+ Emerald Inlaid Fine Stone Head Power Source        | 4    
+ Ancient Journal Page #3                            | -1   
+ Crushed Peerless Shells                            | 6    
+ Overloaded Pyrelite Module                         | 1    
+ Simple Wispweave Filament                          | 2    
+ Deed: Blank                                        | -1   
+ Basic Starbulb Plant                               | 1    
+ Sturdy Wispweave Filament                          | 3    
+ Overloaded Fine Cloth Head Power Source            | 4    
+ Zesty Hot Tea                                      | 3    
+ Exquisite Starbulb Plant                           | 5    
+ Infused Flower                                     | 3    
+ Rough Pebbles                                      | 1    
+ Fine Mushroom Skewer                               | 4    
+ Exquisite Chum                                     | 5    
+ Exquisite Starbulb Seeds                           | 5    
+ High Quality Elenvar Head Power Source             | 4    
+ Schematic: Perfected Aurumite Rod                  | 2    
+ Simple Starbulb Plant                              | 2    
+ Rough Trousers                                     | 1    
+ Fine Leather Output                                | 4    
+ Sapphire Inlaid Sturdy Cloth Hand Power Source     | 3    
+ Decayed Pyrelite Rod                               | 1    
+ Azure Shark Filet                                  | 5    
+ Aurumite Nails                                     | 2    
+ Decayed Ferralith Saw                              | 3    
+ Zesty Mushroom Stuffed Bulbs                       | 3    
+ Golden Crawfish                                    | 5    
+ Emerald Inlaid Sturdy Stone Torso Power Source     | 3    
+ Deed: Mask - Stub Horn Mask                        | -1   
+ Massive Peerless Diamond                           | 6    
+ Immortal Sergeant's Gloves                         | 5    
+ Ferralith Leg Power Source                         | 3    
+ Ambrosial Skewered Baitfish                        | 6    
+ Basic Bait and Shells                              | 1    
+ Deed: Mask Pattern - Arch Blue                     | -1   
+ Fingerless Long Cloth Gloves                       | 1    
+ Decayed Ferralith Chisel                           | 3    
+ Diamond Inlaid Elenvar Leg Power Source            | 4    
+ Decayed Luminite Scissors                          | 6    
+ Rough Untreated Plank Output                       | 1    
+ Decayed Lirium Bow                                 | 5    
+ Peerless Starbulb Products                         | 6    
+ Schematic: Overloaded Lirium Module                | 5    
+ Immortal Sergeant's Leggings                       | 5    
+ Perfected Ferralith Tool Research                  | 3    
+ Perfected Pyrelite Trowel Recipe                   | 1    
+ Uncut Exquisite Sapphire                           | 5    
+ Sturdy Gem                                         | 3    
+ Exquisite Cloth Torso Power Source                 | 5    
+ Rough Repaired Leg Power Source                    | 1    
+ Ambrosial Roasted Ocean Fish                       | 6    
+ Perfected Aurumite Chisel                          | 3    
+ Simple Plant Fiber                                 | 2    
+ High Quality Rough Leather Leg Power Source        | 1    
+ Molten Luminite                                    | 6    
+ Sturdy Leather Straps                              | 3    
+ Uncut Peerless Sapphire                            | 6    
+ Ferralith Knife                                    | 3    
+ Perfected Luminite Quill                           | 7    
+ Decayed Aurumite Tool                              | 2    
+ Perfected Elenvar Rod                              | 5    
+ Overloaded Pyrelite Leg Power Source               | 1    
+ Pointed Hat                                        | 1    
+ Basic Wispweave Seeds                              | 1    
+ High Quality Lirium Hand Power Source              | 5    
+ Ruby Inlaid Rough Leather Torso Power Source       | 1    
+ Succulent Berry Pie                                | 5    
+ Schematic: Perfected Elenvar Hammer                | 4    
+ Sturdy Emerald                                     | 3    
+ Pyrelite Hoe                                       | 1    
+ Fine Repaired Ancient Resistor                     | 4    
+ High Quality Aurumite Hand Power Source            | 2    
+ Peerless Radiant Module                            | -1   
+ Fine Leather Leg Power Source                      | 4    
+ Perfected Pyrelite Knife                           | 2    
+ High Quality Sturdy Leather Leg Power Source       | 3    
+ Perfected Luminite Rod                             | 7    
+ Developer Machete                                  | 13   
+ Plain Roasted Meat                                 | 1    
+ Exquisite Gem Dust                                 | 5    
+ Peerless Twine                                     | 6    
+ Overloaded Fine Leather Head Power Source          | 4    
+ Savory Raw Berry Pie                               | 2    
+ Wavecrest Eel Filet                                | 3    
+ Rough Shorts                                       | 1    
+ Decayed Ancient Bow                                | -1   
+ Perfected Ferralith Scissors                       | 4    
+ Perfected Lirium Saw                               | 6    
+ Beach Shirt                                        | 1    
+ Sturdy Forester's Pot                              | 3    
+ Schematic: Perfected Elenvar Chisel                | 4    
+ Peerless Cloth Output                              | 6    
+ Decayed Lirium Tool                                | 5    
+ Perfected Pyrelite Machete                         | 2    
+ Uncut Simple Emerald                               | 2    
+ Plain Raw Bulb Rolls                               | 1    
+ Diamond Inlaid Luminite Leg Power Source           | 6    
+ Sturdy Repaired Ancient Wires                      | 3    
+ Grand Fine Sapphire                                | 4    
+ Sturdy Dried Pelt                                  | 3    
+ Overloaded Luminite Module                         | 6    
+ T3 Ancient Components                              | -1   
+ Deed: Mask Pattern - Sun Blue                      | -1   
+ Massive Exquisite Diamond                          | 5    
+ Tattered Cap                                       | 1    
+ Overloaded Lirium Torso Power Source               | 5    
+ Perfected Elenvar Tool Research                    | 4    
+ Perfected Ferralith Pickaxe                        | 4    
+ Fine Spool Of Thread                               | 4    
+ High Quality Pyrelite Module                       | 1    
+ Peerless Parchment                                 | 6    
+ High Quality Ferralith Ingot                       | 3    
+ Peerless Cleaned Pelt                              | 6    
+ Schematic: Perfected Aurumite Pickaxe              | 2    
+ Deed: Mask - Drooping Ear Mask                     | -1   
+ Pyrelite Pickaxe                                   | 1    
+ Lirium Axe                                         | 5    
+ Leather Workboots                                  | 1    
+ Infused Pigment                                    | 3    
+ Perfected Lirium Bow                               | 6    
+ Elenvar Hand Power Source                          | 4    
+ Animal Bones                                       | -1   
+ High Quality Pyrelite Hand Power Source            | 1    
+ Perfected Aurumite Saw Recipe                      | 2    
+ High Quality Sturdy Plank                          | 3    
+ Schematic: Perfected Elenvar Machete               | 4    
+ Developer Scissors                                 | 9    
+ Savory Roasted Meat                                | 2    
+ Massive Sturdy Sapphire                            | 3    
+ Sturdy Leather Hand Power Source                   | 3    
+ Savory Mashed Bulbs                                | 2    
+ Zesty Chilling Tea                                 | 3    
+ Fine Medium Leather Output                         | 4    
+ Argent Ingot                                       | -1   
+ Damaged Ancient Spring                             | -1   
+ Peerless Stone Hand Power Source                   | 6    
+ Blacksmith's Key                                   | 1    
+ Perfected Ferralith Hoe                            | 4    
+ Decayed Pyrelite Hammer                            | 1    
+ Pyrelite Ore Piece                                 | 1    
+ Fine Repaired Ancient Gear                         | 4    
+ Ambrosial Mushroom Stuffed Bulbs                   | 6    
+ Fine Chilling Tea                                  | 4    
+ Simple Fish Oil                                    | 2    
+ Emerald Inlaid Rough Stone Module                  | 1    
+ Schematic: Sturdy Overloaded Cloth Module          | 3    
+ Potted Maple Sapling                               | 3    
+ Elenvar Rod                                        | 4    
+ Exquisite Repaired Ancient Resistor                | 5    
+ Sturdy Vibrant Module                              | -1   
+ Fine Untreated Plank                               | 4    
+ Peerless Starbulb Plant                            | 6    
+ Diamond Inlaid Elenvar Hand Power Source           | 4    
+ Fine Jam Sandwich                                  | 4    
+ Plain Mashed Bulbs                                 | 1    
+ Schematic: Perfected Lirium Quill                  | 5    
+ Decayed Lirium Machete                             | 5    
+ Perfected Elenvar Chisel                           | 5    
+ Perfected Aurumite Machete                         | 3    
+ Zesty Meat Sandwich                                | 3    
+ Perfected Elenvar Pickaxe                          | 5    
+ Developer Hammer                                   | 5    
+ Emerald Inlaid Peerless Stone Module               | 6    
+ Schematic: Peerless Overloaded Cloth Module        | 6    
+ Lirium Torso Power Source                          | 5    
+ Rough Pants                                        | 1    
+ Perfected Pyrelite Cooking Pot Recipe              | 1    
+ Tiny Exquisite Emerald                             | 5    
+ Emberfin Shiner Filet                              | 2    
+ Peerless Brick                                     | 6    
+ Perfected Ferralith Bow                            | 4    
+ Savory Cooked Berries                              | 2    
+ High Quality Exquisite Leather                     | 5    
+ Fine Unpowered Cloth Module                        | 4    
+ Decayed Luminite Bow                               | 6    
+ Overloaded Simple Leather Torso Power Source       | 2    
+ Decayed Pyrelite Tool                              | 1    
+ Flint Knife                                        | 1    
+ Rough Gem Dust                                     | 1    
+ Overloaded Sturdy Cloth Module                     | 3    
+ Schematic: Fine Overloaded Cloth Module            | 4    
+ Simple Raw Pelt                                    | 2    
+ High Quality Peerless Cloth Module                 | 6    
+ Diamond Inlaid Pyrelite Leg Power Source           | 1    
+ Perfected Pyrelite Tool Research                   | 1    
+ Rough Long Skirt                                   | 1    
+ Miracle Drink                                      | 1    
+ Flint Saw                                          | 1    
+ High Quality Sturdy Cloth Module                   | 3    
+ Simple Plank                                       | 2    
+ Flint Quill                                        | 1    
+ Schematic: Perfected Pyrelite Hoe                  | 1    
+ Infused Starbulb Products                          | 3    
+ High Quality Peerless Plank                        | 6    
+ Developer Axe                                      | 2    
+ High Quality Elenvar Module                        | 4    
+ Diamond Inlaid Aurumite Torso Power Source         | 2    
+ Fine Leather Hand Power Source                     | 4    
+ Sturdy Parchment                                   | 3    
+ Tiny Exquisite Sapphire                            | 5    
+ Simple Cloth Head Power Source                     | 2    
+ Fine Ground Meat and Mashed Bulbs                  | 4    
+ Tiny Exquisite Diamond                             | 5    
+ Simple Gem                                         | 2    
+ Peerless Charcoal                                  | 6    
+ Overloaded Lirium Module                           | 5    
+ Exquisite Wispweave Seeds                          | 5    
+ Emerald Inlaid Peerless Stone Leg Power Source     | 6    
+ Ferralith Quill                                    | 3    
+ Simple Leather Straps                              | 2    
+ Schematic: Perfected Aurumite Pot                  | 2    
+ Sapphire Inlaid Peerless Cloth Leg Power Source    | 6    
+ Rope Belt                                          | 1    
+ Fine Roasted Ocean Fish                            | 4    
+ Emerald Inlaid Exquisite Stone Hand Power Source   | 5    
+ Schematic: Perfected Elenvar Knife                 | 4    
+ Sturdy Large Leather Output                        | 3    
+ Savory Trailmix                                    | 2    
+ Rough Leather Torso Power Source                   | 1    
+ Peerless Leather Output                            | 6    
+ Overloaded Peerless Leather Leg Power Source       | 6    
+ Leather Vest and Shirt                             | 1    
+ Sapphire Inlaid Exquisite Cloth Module             | 5    
+ Baffled Adventurer's Note                          | -1   
+ Perfected Ferralith Chisel Recipe                  | 3    
+ Lirium Chisel                                      | 5    
+ Ash                                                | -1   
+ Massive Rough Diamond                              | 1    
+ Wild Vegetable Seeds                               | 1    
+ Aurumite Leg Power Source                          | 2    
+ High Quality Peerless Leather Leg Power Source     | 6    
+ Decayed Ancient Tool                               | -1   
+ Starseeker Scribe's Emblem                         | 3    
+ Perfected Aurumite Knife Recipe                    | 2    
+ Luminite Pot                                       | 6    
+ Pyrelite Gauntlets                                 | 1    
+ Massive Fine Emerald                               | 4    
+ High Quality Rough Leather Torso Power Source      | 1    
+ Peerless Rope                                      | 6    
+ Overloaded Elenvar Hand Power Source               | 4    
+ Schematic: Perfected Aurumite Scissors             | 2    
+ Rough Cloth Output                                 | 1    
+ Simple Twine                                       | 2    
+ Crushed Exquisite Shells                           | 5    
+ Overloaded Rough Leather Leg Power Source          | 1    
+ High Quality Lirium Leg Power Source               | 5    
+ Deed: Cheater's Boat                               | -1   
+ Exquisite Diamond                                  | 5    
+ Infused Wispweave Products                         | 3    
+ Emerald Inlaid Simple Stone Module                 | 2    
+ Oceancrest Marlin Products                         | 1    
+ Basic Chum                                         | 1    
+ Luminite Saw                                       | 6    
+ Tiny Rough Emerald                                 | 1    
+ Overloaded Simple Cloth Torso Power Source         | 2    
+ Immortal Sergeant's Belt                           | 5    
+ Succulent Mashed Bulbs                             | 5    
+ Ancient Journal Page #2                            | -1   
+ Perfected Luminite Axe                             | 7    
+ High Quality Lirium Ingot                          | 5    
+ High Quality Sturdy Leather Torso Power Source     | 3    
+ Exquisite Embergrain Products                      | 5    
+ Decayed Luminite Pot                               | 6    
+ Lirium Bow                                         | 5    
+ High Quality Sturdy Leather Module                 | 3    
+ Decayed Luminite Rod                               | 6    
+ Lirium Hand Power Source                           | 5    
+ Tree Sap                                           | -1   
+ Exquisite Rope                                     | 5    
+ Fine Leather                                       | 4    
+ Simple Leather Belt                                | 1    
+ High Quality Peerless Leather Module               | 6    
+ Ruby Inlaid Fine Leather Head Power Source         | 4    
+ Fine Dumpling                                      | 4    
+ Lirium Hoe                                         | 5    
+ Overloaded Lirium Hand Power Source                | 5    
+ Sturdy Radiant Module                              | -1   
+ Developer Pick Axe                                 | 6    
+ Fine Rope                                          | 4    
+ High Quality Fine Leather Leg Power Source         | 4    
+ Rolled Up Shorts                                   | 1    
+ Peerless Unfired Forester's Pot                    | 6    
+ Argent Ore Concentrate                             | -1   
+ Fine Embergrain Dough                              | 4    
+ Emerald Inlaid Sturdy Stone Head Power Source      | 3    
+ High Quality Rough Leather                         | 1    
+ Infused Embergrain Dough                           | 3    
+ Perfected Aurumite Saw                             | 3    
+ Peerless Ruby                                      | 6    
+ Simple Cloth Leg Power Source                      | 2    
+ Simple Charcoal                                    | 2    
+ Ruby Inlaid Sturdy Leather Leg Power Source        | 3    
+ Perfected Pyrelite Chisel Recipe                   | 1    
+ Peerless Spool Of Thread                           | 6    
+ Fine Vegetable Stew                                | 4    
+ Perfected Elenvar Quill                            | 5    
+ Overloaded Rough Cloth Leg Power Source            | 1    
+ Deed: Mask - Demon Horn Mask                       | -1   
+ Perfected Ferralith Scissors Recipe                | 3    
+ Overloaded Peerless Leather Module                 | 6    
+ Overloaded Exquisite Cloth Head Power Source       | 5    
+ Sapphire Inlaid Simple Cloth Head Power Source     | 2    
+ Succulent Roasted Ocean Fish                       | 5    
+ Decayed Ancient Machete                            | -1   
+ Sturdy Twine                                       | 3    
+ Botter's Tool                                      | 1    
+ Simple Embergrain Dough                            | 2    
+ Exquisite Pebbles                                  | 5    
+ Rough Cloth Hand Power Source                      | 1    
+ Emerald Inlaid Rough Stone Head Power Source       | 1    
+ High Quality Exquisite Cloth Hand Power Source     | 5    
+ Simple Rope                                        | 2    
+ Decayed Pyrelite Pot                               | 1    
+ Simple Medium Leather Output                       | 2    
+ Crushed Simple Shells                              | 2    
+ Oceancrest Marlin Scale                            | 1    
+ Peerless Surging Module                            | -1   
+ Overloaded Fine Cloth Torso Power Source           | 4    
+ Sturdy Leather Output                              | 3    
+ Simple Repaired Ancient Wires                      | 2    
+ Deed: Masterful Skiff                              | 1    
+ Deed: Hair Color - Charcoal                        | -1   
+ Peerless Embergrain Seeds                          | 6    
+ Fine Raw Pelt                                      | 4    
+ Exquisite Ink                                      | 5    
+ Rough Gem                                          | 1    
+ Uncut Exquisite Ruby                               | 5    
+ Simple Leather Leg Power Source                    | 2    
+ Schematic: Perfected Ferralith Knife               | 3    
+ Perfected Elenvar Hoe                              | 5    
+ Wild Vegetable                                     | 1    
+ Perfected Ferralith Saw                            | 4    
+ Exquisite Leather Straps                           | 5    
+ Seastorm Tuna Products                             | 4    
+ Perfected Pyrelite Pickaxe Recipe                  | 1    
+ Sturdy Medium Leather Output                       | 3    
+ Decayed Lirium Scissors                            | 5    
+ High Quality Elenvar Torso Power Source            | 4    
+ Perfected Ferralith Saw Recipe                     | 3    
+ Peerless Diamond                                   | 6    
+ Schematic: Perfected Aurumite Machete              | 2    
+ Plain Cooked Berries                               | 1    
+ Primitive Mallet                                   | 1    
+ Exquisite Radiant Module                           | -1   
+ Peerless Wispweave Filament                        | 6    
+ Decayed Aurumite Hoe                               | 2    
+ Sturdy Surging Module                              | -1   
+ Perfected Pyrelite Knife Recipe                    | 1    
+ Simple Repaired Ancient Resistor                   | 2    
+ Advanced Stone Diagrams                            | 5    
+ Sapphire Inlaid Fine Cloth Hand Power Source       | 4    
+ Rough Sapphire                                     | 1    
+ Decayed Lirium Saw                                 | 5    
+ Peerless Sapphire                                  | 6    
+ Perfected Lirium Axe                               | 6    
+ Schematic: Perfected Pyrelite Bow                  | 1    
+ Ancient Journal Page #4                            | -1   
+ Simple Ink                                         | 2    
+ Essential Stone Carvings                           | 3    
+ Tiny Rough Diamond                                 | 1    
+ Simple Parchment                                   | 2    
+ Sturdy Sapphire                                    | 3    
+ Infused Starbulb Seeds                             | 3    
+ Rough Cleaned Pelt                                 | 1    
+ Elenvar Hammer                                     | 4    
+ Savory Berry Pie                                   | 2    
+ Leather Chest Armor                                | 1    
+ Simple Fabric                                      | 2    
+ High Quality Peerless Cloth                        | 6    
+ Sturdy Stone Leg Power Source                      | 3    
+ Ambrosial Jam Sandwich                             | 6    
+ Schematic: Simple Overloaded Leather Module        | 2    
+ Ancient Armwraps                                   | 1    
+ Simple Vibrant Module                              | -1   
+ Fine Raw Meat                                      | 4    
+ Fancy White Hat                                    | 1    
+ Overloaded Exquisite Leather Module                | 5    
+ Peerless Unpowered Cloth Module                    | 6    
+ Ambrosial Berry Pie                                | 6    
+ Plain Berry Pie                                    | 1    
+ Advanced Hieroglyphs                               | 5    
+ Tiny Simple Emerald                                | 2    
+ Elenvar Saw                                        | 4    
+ Ambrosial Mashed Bulbs                             | 6    
+ Peerless Mortar                                    | 6    
+ Diamond Inlaid Lirium Module                       | 5    
+ Luminite Ore Concentrate                           | 6    
+ Peerless Embergrain Dough                          | 6    
+ Schematic: Perfected Elenvar Rod                   | 4    
+ Schematic: Perfected Elenvar Quill                 | 4    
+ Fine Cloth Output                                  | 4    
+ Sturdy Unfired Forester's Pot                      | 3    
+ Peerless Large Leather Output                      | 6    
+ Grand Peerless Sapphire                            | 6    
+ Exquisite Unfired Forester's Pot                   | 5    
+ High Quality Exquisite Leather Head Power Source   | 5    
+ Basic Embergrain Flour                             | 1    
+ Pyrelite Hand Power Source                         | 1    
+ Zesty Cooked Berries                               | 3    
+ Luminite Pickaxe                                   | 6    
+ Luminite Hammer                                    | 6    
+ Simple Wood Log                                    | 2    
+ High Quality Simple Leather Hand Power Source      | 2    
+ Aurumite Enforced Boots                            | 2    
+ Art Of Cheating Scroll                             | 1    
+ Zesty Raw Dumpling                                 | 3    
+ Exquisite Leather Hand Power Source                | 5    
+ Oak Seed                                           | 1    
+ Schematic: Exquisite Overloaded Leather Module     | 5    
+ Fine Starbulb Plant                                | 4    
+ Peerless Starbulb Seeds                            | 6    
+ Decayed Ancient Knife                              | -1   
+ Perfected Aurumite Hammer                          | 3    
+ Peerless Leather Straps                            | 6    
+ Ambrosial Trailmix                                 | 6    
+ Deed: Hair Color - Brown                           | -1   
+ High Quality Sturdy Leather                        | 3    
+ Perfected Ferralith Pickaxe Recipe                 | 3    
+ Decayed Aurumite Quill                             | 2    
+ Perfected Lirium Hoe                               | 6    
+ Simple Tool Handle                                 | 2    
+ Exquisite Glowing Module                           | 5    
+ Sapphire Inlaid Fine Cloth Torso Power Source      | 4    
+ Decayed Ferralith Bow                              | 3    
+ Deed: Advanced Skiff                               | 1    
+ Peerless Fertilizer                                | 6    
+ Savory Raw Bulb Rolls                              | 2    
+ Savory Mushroom Stuffed Bulbs                      | 2    
+ Overloaded Sturdy Leather Head Power Source        | 3    
+ Small Piece of Argent Ore                          | -1   
+ Pyrelite Chisel                                    | 1    
+ Uncut Sturdy Ruby                                  | 3    
+ Schematic: Perfected Luminite Knife                | 6    
+ Rough Medium Leather Output                        | 1    
+ Ferralith Ore Piece                                | 3    
+ Breezy Fin Darter Products                         | 1    
+ Diamond Inlaid Elenvar Head Power Source           | 4    
+ Overloaded Elenvar Module                          | 4    
+ Overloaded Aurumite Torso Power Source             | 2    
+ Zesty Jam Sandwich                                 | 3    
+ Plated Chest Armor                                 | 1    
+ Sapphire Inlaid Peerless Cloth Module              | 6    
+ Intricate Key                                      | 1    
+ Beginner's Stone Carvings                          | 1    
+ High Quality Peerless Leather Hand Power Source    | 6    
+ Ragged Shirt                                       | 1    
+ Simple Rock                                        | 2    
+ Simple Embergrain Products                         | 2    
+ Perfected Aurumite Pot                             | 3    
+ Massive Rough Emerald                              | 1    
+ Simple Embergrain Plant                            | 2    
+ Basic Belt                                         | 1    
+ Exquisite Plant Fiber                              | 5    
+ Schematic: Perfected Ferralith Machete             | 3    
+ Overloaded Sturdy Cloth Leg Power Source           | 3    
+ Deed: Hairstyle - Side Undercut                    | -1   
+ High Quality Fine Cloth Module                     | 4    
+ Fine Surging Module                                | -1   
+ Exquisite Mortar                                   | 5    
+ Fine Leather Straps                                | 4    
+ Leather Gloves                                     | 1    
+ Pyrelite Leg Power Source                          | 1    
+ Simple Diamond                                     | 2    
+ Schematic: Perfected Lirium Pot                    | 5    
+ Immortal Recruit's Belt                            | 1    
+ Aurumite Saw                                       | 2    
+ Fine Mushroom                                      | 4    
+ Wild Fiberplant Seeds                              | 1    
+ Perfected Aurumite Scissors                        | 3    
+ Damaged Ancient Resistor                           | -1   
+ Peerless Glowing Module                            | 6    
+ Exquisite Repaired Ancient Mechanism               | 5    
+ Simple Bonnet                                      | 2    
+ Crushed Rough Shells                               | 1    
+ Elenvar Pot                                        | 4    
+ Sturdy Repaired Ancient Connector                  | 3    
+ Pyrelite Scissors                                  | 1    
+ Uncut Sturdy Sapphire                              | 3    
+ High Quality Rough Leather Hand Power Source       | 1    
+ High Quality Elenvar Leg Power Source              | 4    
+ Elenvar Nails                                      | 4    
+ Decayed Pyrelite Saw                               | 1    
+ Strapped Leather Boots                             | 1    
+ Elenvar Bow                                        | 4    
+ Exquisite Stone Leg Power Source                   | 5    
+ Fine Roasted Fish                                  | 4    
+ Damaged Ancient Mechanism                          | -1   
+ Peerless Chilling Torso Power Source               | 6    
+ Decayed Aurumite Knife                             | 2    
+ Overloaded Simple Leather Head Power Source        | 2    
+ Ancient Cloth                                      | -1   
+ Fine Raw Dumpling                                  | 4    
+ Schematic: Perfected Lirium Pickaxe                | 5    
+ Abyssal Swordfish Filet                            | 6    
+ Crushed Lirium Ore                                 | 5    
+ Unpowered Ferralith Module                         | 3    
+ Perfected Luminite Chisel                          | 7    
+ Perfected Luminite Machete                         | 7    
+ Ferralith Axe                                      | 3    
+ Emerald Inlaid Sturdy Stone Leg Power Source       | 3    
+ Deed: Large Cart                                   | 1    
+ Ruby Inlaid Rough Leather Module                   | 1    
+ Sapphire Inlaid Sturdy Cloth Module                | 3    
+ Sturdy Stone Head Power Source                     | 3    
+ Basic Embergrain Products                          | 1    
+ Decayed Ancient Axe                                | -1   
+ Perfected Aurumite Chisel Recipe                   | 2    
+ Crushed Aurumite Ore                               | 2    
+ Fine Plant Fiber                                   | 4    
+ Sturdy Blank Journal                               | 3    
+ High Quality Ferralith Hand Power Source           | 3    
+ Fine Overloaded Module                             | -1   
+ Ancient Key Mold                                   | -1   
+ Basic Raw Meat                                     | 1    
+ Tiny Rough Ruby                                    | 1    
+ Leather Skirt                                      | 1    
+ Schematic: Sturdy Overloaded Leather Module        | 3    
+ Essential Study Journal                            | 3    
+ Decayed Aurumite Pickaxe                           | 2    
+ Overloaded Fine Leather Leg Power Source           | 4    
+ Schematic: Perfected Ferralith Quill               | 3    
+ Sturdy Cleaned Pelt                                | 3    
+ Pygmy Lobster                                      | 4    
+ Fine Skewered Baitfish                             | 4    
+ Luminite Head Power Source                         | 6    
+ Sturdy Pebbles Output                              | 3    
+ Overloaded Rough Leather Module                    | 1    
+ Decayed Ancient Chisel                             | -1   
+ Flint Rod                                          | 1    
+ Peerless Pebbles                                   | 6    
+ Craftman's Mallet                                  | 1    
+ Cooling Capacitor                                  | -1   
+ Bone Glue                                          | -1   
+ Fine Cloth Hand Power Source                       | 4    
+ Fine Cloth Leg Power Source                        | 4    
+ Leather Hat                                        | 1    
+ Fine Repaired Ancient Spring                       | 4    
+ Dress Shirt                                        | 1    
+ Decayed Luminite Pickaxe                           | 4    
+ Perfected Aurumite Bow                             | 3    
+ Coralcrest Darter Products                         | 3    
+ Plain Hot Tea                                      | 1    
+ Hunchback Prawn                                    | 3    
+ Decayed Luminite Tool                              | 6    
+ Simple Ruby                                        | 2    
+ Tiny Sturdy Diamond                                | 3    
+ Diamond Inlaid Ferralith Module                    | 3    
+ Grand Rough Diamond                                | 1    
+ Overloaded Simple Cloth Module                     | 2    
+ Simple Blank Journal                               | 2    
+ Fine Starbulb                                      | 4    
+ First Settler's Mallet                             | 3    
+ Shirt and Suspenders                               | 1    
+ Tattered Shorts                                    | 1    
+ Exquisite Embergrain Seeds                         | 5    
+ Molten Aurumite                                    | 2    
+ Schematic: Perfected Ferralith Hammer              | 3    
+ Savory Dumpling                                    | 2    
+ Ruby Inlaid Peerless Leather Torso Power Source    | 6    
+ Simple Glowing Module                              | 2    
+ Decayed Luminite Hoe                               | 6    
+ Auric Nugget                                       | -1   
+ Infused Chum                                       | 3    
+ Blue Plank Road Recipe                             | -1   
+ Sapphire Inlaid Exquisite Cloth Head Power Source  | 5    
+ Fine Chilling Torso Power Source                   | 4    
+ Aurumite Torso Power Source                        | 2    
+ Exquisite Overloaded Module                        | -1   
+ Sapphire Inlaid Simple Cloth Hand Power Source     | 2    
+ Decayed Pyrelite Scissors                          | 1    
+ Simple Leather Output                              | 2    
+ Fine Large Leather Output                          | 4    
+ Peerless Wispweave Products                        | 6    
+ Starseeker Student's Footwraps                     | 1    
+ Sapphire Inlaid Rough Cloth Torso Power Source     | 1    
+ Diamond Inlaid Luminite Hand Power Source          | 6    
+ Overloaded Luminite Hand Power Source              | 6    
+ Schematic: Perfected Pyrelite Quill                | 1    
+ Simple Emerald                                     | 2    
+ Aurumite Pickaxe                                   | 2    
+ Exquisite Stone Torso Power Source                 | 5    
+ Schematic: Perfected Ferralith Bow                 | 3    
+ Rough Large Leather Output                         | 1    
+ Beginner's Study Journal                           | 1    
+ Exquisite Leather Head Power Source                | 5    
+ Peerless Tool Handle                               | 6    
+ Overloaded Exquisite Cloth Torso Power Source      | 5    
+ Uncut Sturdy Emerald                               | 3    
+ Aurumite Rod                                       | 2    
+ Simple Large Leather Output                        | 2    
+ Ancient Adventurer's Letter #1                     | -1   
+ Simple Unpowered Stone Module                      | 2    
+ Fine Starbulb Products                             | 4    
+ Decayed Aurumite Axe                               | 2    
+ Peerless Repaired Ancient Spring                   | 6    
+ Aurumite Knife                                     | 2    
+ Peerless Bait                                      | 6    
+ Fine Repaired Ancient Wires                        | 4    
+ Schematic: Perfected Luminite Saw                  | 6    
+ Rough Wispweave Filament                           | 1    
+ Exquisite Leather                                  | 5    
+ Peerless Flower                                    | 6    
+ High Quality Rough Cloth Head Power Source         | 1    
+ Ambrosial Bread                                    | 6    
+ Fine Stone Torso Power Source                      | 4    
+ Infused Wispweave Seeds                            | 3    
+ Grand Peerless Diamond                             | 6    
+ Pyrelite Ingot                                     | 1    
+ Molten Pyrelite                                    | 1    
+ Ornate Key                                         | 6    
+ Grand Sturdy Ruby                                  | 3    
+ Sturdy Cloth Hand Power Source                     | 3    
+ Ancient Research                                   | -1   
+ Schematic: Perfected Lirium Hammer                 | 5    
+ Perfected Pyrelite Saw                             | 2    
+ Overloaded Rough Leather Torso Power Source        | 1    
+ Peerless Plank                                     | 6    
+ Lirium Quill                                       | 5    
+ Infused Embergrain Plant                           | 3    
+ Perfected Ferralith Tipped Quill Recipe            | 3    
+ Flint Pickaxe                                      | 1    
+ Ruby Inlaid Rough Leather Hand Power Source        | 1    
+ Immortal Soldier's Boots                           | 1    
+ Tiny Sturdy Sapphire                               | 3    
+ Ruby Inlaid Sturdy Leather Module                  | 3    
+ Wavecrest Eel Scale                                | 3    
+ Overloaded Rough Leather Hand Power Source         | 1    
+ Exquisite Untreated Plank Output                   | 5    
+ Exquisite Fertilizer                               | 5    
+ Uncut Rough Diamond                                | 1    
+ Peerless Embergrain Flour                          | 6    
+ Simple Cloth Footwraps                             | 1    
+ Overloaded Lirium Leg Power Source                 | 5    
+ Sturdy Heated Module                               | 3    
+ Decayed Elenvar Tool                               | 4    
+ Sapphire Inlaid Fine Cloth Head Power Source       | 4    
+ Diamond Inlaid Aurumite Head Power Source          | 2    
+ Schematic: Perfected Luminite Chisel               | 6    
+ Rough Sandals                                      | 1    
+ Zesty Fish and Bulbs                               | 3    
+ Basic Starbulb Products                            | 1    
+ Developer Hoe                                      | 10   
+ Diamond Inlaid Ferralith Head Power Source         | 3    
+ Damaged Ancient Wires                              | -1   
+ Decayed Elenvar Hammer                             | 4    
+ Perfected Elenvar Knife                            | 5    
+ Grand Sturdy Diamond                               | 3    
+ Schematic: Perfected Ferralith Chisel              | 3    
+ Overloaded Ferralith Head Power Source             | 3    
+ Comprehensive Stone Diagrams                       | 6    
+ Perfected Ferralith Knife                          | 4    
+ Fine Stone Leg Power Source                        | 4    
+ Savory Roasted Fish                                | 2    
+ Starseeker Researcher's Gloves                     | 5    
+ Comprehensive Study Journal                        | 6    
+ Decayed Pyrelite Hoe                               | 1    
+ Peerless Medium Leather Output                     | 6    
+ Sturdy Plank                                       | 3    
+ Mossfin Chub Filet                                 | 4    
+ Rough Stone Leg Power Source                       | 1    
+ Fine Ink                                           | 4    
+ Decayed Pyrelite Pickaxe                           | 1    
+ Starseeker Scribe's Footwraps                      | 1    
+ Emberscale Sturgeon                                | 5    
+ Pyrelite Head Power Source                         | 1    
+ Fine Bulb Rolls                                    | 4    
+ Perfected Lirium Pot                               | 6    
+ Simple Rough Shoes                                 | 1    
+ Ancient Adventurer's Letter #2                     | -1   
+ Simple Tree Bark                                   | 2    
+ Aurumite Bow                                       | 2    
+ Rough Tree Bark                                    | 1    
+ Schematic: Perfected Luminite Hammer               | 6    
+ Rough Repaired Ancient Mechanism                   | 1    
+ Overloaded Rough Cloth Module                      | 1    
+ Dried Fine Flowers                                 | 4    
+ Rough Radiant Module                               | -1   
+ Overloaded Sturdy Cloth Hand Power Source          | 3    
+ Peerless Repaired Ancient Resistor                 | 6    
+ Diamond Inlaid Elenvar Module                      | 4    
+ Sapphire Inlaid Simple Cloth Torso Power Source    | 2    
+ Succulent Cooked Berries                           | 5    
+ Exquisite Unpowered Cloth Module                   | 5    
+ Luminite Ore Piece                                 | 6    
+ Simple Pebbles                                     | 2    
+ Elenvar Pickaxe                                    | 4    
+ Deed: Rideable Deer                                | -1   
+ Zesty Vegetable Stew                               | 3    
+ Hexfin Perch Products                              | 6    
+ Advanced Study Journal                             | 5    
+ Succulent Chilling Tea                             | 5    
+ Emerald Inlaid Rough Stone Hand Power Source       | 1    
+ Massive Rough Sapphire                             | 1    
+ Elenvar Torso Power Source                         | 4    
+ Sturdy Cloth Output                                | 3    
+ Succulent Hot Tea                                  | 5    
+ Overloaded Peerless Cloth Torso Power Source       | 6    
+ Peerless Crop Oil                                  | 6    
+ Cloth Armwraps                                     | 1    
+ High Quality Simple Cloth Leg Power Source         | 2    
+ Overloaded Fine Leather Module                     | 4    
+ Rough Repaired Ancient Connector                   | 1    
+ Schematic: Overloaded Pyrelite Module              | 1    
+ Perfected Ferralith Cooking Pot Recipe             | 3    
+ Savory Bulb Rolls                                  | 2    
+ Schematic: Perfected Luminite Bow                  | 6    
+ Moonlit Crawdad                                    | 1    
+ Sturdy Untreated Plank Output                      | 3    
+ Lirium Ingot                                       | 5    
+ Peerless Wispweave Seeds                           | 6    
+ Decayed Lirium Pickaxe                             | 3    
+ Ancient Adventurer's Note                          | -1   
+ Simple Wispweave Products                          | 2    
+ Overloaded Simple Cloth Hand Power Source          | 2    
+ Basic Embergrain Plant                             | 1    
+ High Quality Aurumite Head Power Source            | 2    
+ Tiny Fine Ruby                                     | 4    
+ Ancient Footwraps                                  | 1    
+ Perfected Aurumite Scissors Recipe                 | 2    
+ Decayed Elenvar Hoe                                | 4    
+ Basic Clay Lump                                    | 1    
+ Expert's Mallet                                    | 1    
+ Simple Gem Dust                                    | 2    
+ Overloaded Pyrelite Hand Power Source              | 1    
+ Teleport Crystal                                   | 1    
+ Uncut Simple Sapphire                              | 2    
+ Fine Embergrain Products                           | 4    
+ Rough Repaired Head Power Source                   | 1    
+ Savory Skewered Baitfish                           | 2    
+ Rough Charcoal                                     | 1    
+ Diamond Inlaid Pyrelite Hand Power Source          | 1    
+ Overloaded Fine Cloth Leg Power Source             | 4    
+ Rough Twine                                        | 1    
+ Simple Stone Head Power Source                     | 2    
+ Savory Vegetable Stew                              | 2    
+ Ambrosial Raw Bulb Rolls                           | 6    
+ Simple Radiant Module                              | -1   
+ Ambrosial Ground Meat and Mashed Bulbs             | 6    
+ Elegant Shirt                                      | 1    
+ Perfected Pyrelite Rod                             | 2    
+ Exquisite Cloth                                    | 5    
+ Immortal Recruit's Boots                           | 1    
+ Peerless Emerald                                   | 6    
+ Ruby Inlaid Sturdy Leather Torso Power Source      | 3    
+ Peerless Heated Module                             | 6    
+ Pyrelite Bow                                       | 1    
+ High Quality Rough Cloth Leg Power Source          | 1    
+ Well Stitched Long Shorts                          | 1    
+ Infused Embergrain Products                        | 3    
+ Sturdy Spool Of Thread                             | 3    
+ Wild Grain                                         | 1    
+ Perfected Ferralith Trowel Recipe                  | 3    
+ Rough Leather                                      | 1    
+ Sturdy Cloth Leg Power Source                      | 3    
+ High Quality Sturdy Leather Head Power Source      | 3    
+ Perfected Luminite Scissors                        | 7    
+ High Quality Sturdy Cloth Hand Power Source        | 3    
+ Succulent Fish and Bulbs                           | 5    
+ Simple Unfired Forester's Pot                      | 2    
+ Peerless Cloth Head Power Source                   | 6    
+ Exquisite Starbulb                                 | 5    
+ Massive Sturdy Emerald                             | 3    
+ Infused Tannin                                     | 3    
+ Luminite Quill                                     | 6    
+ Novice Building Blueprint                          | 2    
+ Fancy Shirt                                        | 1    
+ Infused Mortar                                     | 3    
+ Ruby Inlaid Peerless Leather Module                | 6    
+ Pyrelite Ingot Output                              | 1    
+ Deed: Skiff                                        | 1    
+ Auric Ore Concentrate                              | -1   
+ Rough Cap                                          | 1    
+ Immortal Recruit's Leggings                        | 1    
+ Silken Hexmoth                                     | -1   
+ Emberscale Sturgeon Products                       | 5    
+ Simple Tannin                                      | 2    
+ Fingerless Cloth Gloves                            | 1    
+ Peerless Unpowered Stone Module                    | 6    
+ Peerless Leather Leg Power Source                  | 6    
+ Fine Ruby                                          | 4    
+ High Quality Pyrelite Ingot                        | 1    
+ Perfected Pyrelite Axe                             | 2    
+ Pyrelite Knife                                     | 1    
+ Fine Tree Bark                                     | 4    
+ Exquisite Rock                                     | 5    
+ Exquisite Fish Oil                                 | 5    
+ High Quality Peerless Cloth Torso Power Source     | 6    
+ Diamond Inlaid Ferralith Hand Power Source         | 3    
+ Simple Stone Hand Power Source                     | 2    
+ Peerless Stone Leg Power Source                    | 6    
+ Perfected Elenvar Bow                              | 5    
+ Sturdy Charcoal                                    | 3    
+ Immortal Soldier's Armwrap                         | 3    
+ Emerald Inlaid Simple Stone Head Power Source      | 2    
+ Decayed Ferralith Rod                              | 3    
+ Basic Bait                                         | 1    
+ Essential Stone Diagram Research                   | 3    
+ Savory Meat Sandwich                               | 2    
+ Schematic: Perfected Elenvar Pickaxe               | 4    
+ Ferralith Nails                                    | 3    
+ Immortal Sergeant's Tunic                          | 5    
+ Rough Repaired Ancient Spring                      | 1    
+ Savory Roasted Ocean Fish                          | 2    
+ Basic Pigment                                      | 1    
+ Simple Untreated Plank                             | 2    
+ Succulent Jam Sandwich                             | 5    
+ Fine Wood Log                                      | 4    
+ Exquisite Leather Output                           | 5    
+ Grand Exquisite Sapphire                           | 5    
+ Schematic: Perfected Luminite Pot                  | 6    
+ Infused Bait                                       | 3    
+ Overloaded Sturdy Cloth Torso Power Source         | 3    
+ Deed: Mask Pattern - Flower Crown Blue             | -1   
+ Perfected Aurumite Trowel Recipe                   | 2    
+ Massive Sturdy Ruby                                | 3    
+ Plain Roasted Ocean Fish                           | 1    
+ Decayed Pyrelite Axe                               | 1    
+ Tiny Fine Sapphire                                 | 4    
+ Peerless Wood Log                                  | 6    
+ High Quality Ferralith Module                      | 3    
+ Overloaded Peerless Leather Head Power Source      | 6    
+ Deed: Mask Pattern - Arrows Blue                   | -1   
+ Overloaded Sturdy Cloth Head Power Source          | 3    
+ Zesty Mashed Bulbs                                 | 3    
+ Basic Embergrain Seeds                             | 1    
+ Peerless Leather Head Power Source                 | 6    
+ Simple Repaired Ancient Spring                     | 2    
+ Schematic: Perfected Lirium Axe                    | 5    
+ High Quality Sturdy Cloth                          | 3    
+ Rough Repaired Ancient Wires                       | 1    
+ Fine Cloth                                         | 4    
+ Schematic: Perfected Lirium Scissors               | 5    
+ Schematic: Simple Overloaded Cloth Module          | 2    
+ Breezy Fin Darter Filet                            | 1    
+ High Quality Peerless Leather Head Power Source    | 6    
+ Decayed Aurumite Machete                           | 2    
+ Lirium Ingot Output                                | 5    
+ Basic Mortar                                       | 1    
+ High Quality Exquisite Leather Torso Power Source  | 5    
+ Fine Wispweave Plant                               | 4    
+ Decayed Ancient Hoe                                | -1   
+ High Quality Simple Cloth Hand Power Source        | 2    
+ Abyssal Swordfish Products                         | 6    
+ Decayed Elenvar Knife                              | 4    
+ Deed: Mask - Unihorn Mask                          | -1   
+ Ruby Inlaid Peerless Leather Leg Power Source      | 6    
+ Deed: Mask - Four Points Mask                      | -1   
+ Fine Trailmix                                      | 4    
+ Crushed Fine Shells                                | 4    
+ Long Cloth Gloves                                  | 1    
+ Overloaded Peerless Leather Hand Power Source      | 6    
+ Uncut Peerless Emerald                             | 6    
+ Starseeker Student's Robe                          | 1    
+ Simple Untreated Plank Output                      | 2    
+ Peerless Embergrain Products                       | 6    
+ Flint Scissors                                     | 1    
+ Aurumite Chisel                                    | 2    
+ High Quality Rough Plank                           | 1    
+ Succulent Ground Meat and Mashed Bulbs             | 5    
+ Lirium Ore Piece                                   | 5    
+ Exquisite Bait and Shells                          | 5    
+ Exquisite Gem                                      | 5    
+ Crushed Piece of Argent Ore                        | -1   
+ Perfected Ferralith Hammer                         | 4    
+ Simple Cloth Torso Power Source                    | 2    
+ Simple Cloth Gloves                                | 1    
+ Developer Saw                                      | 4    
+ Decayed Lirium Knife                               | 5    
+ Fine Mushroom Stuffed Bulbs                        | 4    
+ Advanced Building Blueprint                        | 5    
+ Peerless Repaired Ancient Mechanism                | 6    
+ Lirium Pickaxe                                     | 5    
+ Crushed Luminite Ore                               | 6    
+ Crushed Pyrelite Ore                               | 1    
+ Rough Bonnet                                       | 1    
+ Lirium Nails                                       | 5    
+ Starseeker's Researcher's Emblem                   | 5    
+ Sturdy Unpowered Cloth Module                      | 3    
+ High Quality Fine Leather Head Power Source        | 4    
+ Elenvar Quill                                      | 4    
+ Shredded Notes                                     | -1   
+ Exquisite Charcoal                                 | 5    
+ Ferralith Torso Power Source                       | 3    
+ High Quality Rough Cloth Hand Power Source         | 1    
+ Luminite Ingot Output                              | 6    
+ Sapphire Inlaid Sturdy Cloth Torso Power Source    | 3    
+ Badly Damaged Leg Power Source                     | 1    
+ Rough Leather Leg Power Source                     | 1    
+ Essential Hieroglyphs                              | 3    
+ Perfected Lirium Scissors                          | 6    
+ Ancient Journal Page #5                            | -1   
+ Sturdy Tool Handle                                 | 3    
+ Rough Rock                                         | 1    
+ Peerless Vibrant Module                            | -1   
+ Aurumite Axe                                       | 2    
+ Tiny Exquisite Ruby                                | 5    
+ Elenvar Knife                                      | 4    
+ Decayed Ancient Scissors                           | -1   
+ High Quality Lirium Torso Power Source             | 5    
+ Simple Embergrain Flour                            | 2    
+ Rough Repaired Ancient Gear                        | 1    
+ Dried Peerless Flowers                             | 6    
+ Rough Plank Output                                 | 1    
+ Mark of Brico                                      | -1   
+ High Quality Simple Cloth                          | 2    
+ Ruby Inlaid Simple Leather Torso Power Source      | 2    
+ Emerald Inlaid Exquisite Stone Head Power Source   | 5    
+ Schematic: Overloaded Elenvar Module               | 4    
+ Peerless Leather Torso Power Source                | 6    
+ Infused Raw Meat                                   | 3    
+ Exquisite Dried Pelt                               | 5    
+ Ferralith Ore Concentrate                          | 3    
+ Dried Exquisite Flowers                            | 5    
+ Schematic: Perfected Aurumite Chisel               | 2    
+ Perfected Pyrelite Hoe                             | 2    
+ Peerless Fabric                                    | 6    
+ Exquisite Twine                                    | 5    
+ High Quality Simple Leather Head Power Source      | 2    
+ Fine Wispweave Filament                            | 4    
+ Luminite Chisel                                    | 6    
+ Grand Simple Emerald                               | 2    
+ High Quality Luminite Module                       | 6    
+ Deed: Improved Skiff                               | 1    
+ High Quality Fine Cloth Leg Power Source           | 4    
+ Plain Chilling Tea                                 | 1    
+ Exquisite Parchment                                | 5    
+ Ancient Enadarite Key                              | -1   
+ Decayed Lirium Rod                                 | 5    
+ Basic Fertilizer                                   | 1    
+ Sapphire Inlaid Peerless Cloth Head Power Source   | 6    
+ Fine Bread                                         | 4    
+ Elenvar Ore Concentrate                            | 4    
+ Sturdy Diamond                                     | 3    
+ Succulent Trailmix                                 | 5    
+ High Quality Simple Cloth Module                   | 2    
+ Ruby Inlaid Simple Leather Head Power Source       | 2    
+ Fine Fabric                                        | 4    
+ Peerless Repaired Ancient Gear                     | 6    
+ Fine Repaired Ancient Mechanism                    | 4    
+ Perfected Pyrelite Chisel                          | 2    
+ Overloaded Peerless Cloth Leg Power Source         | 6    
+ Immortal Soldier's Leggings                        | 3    
+ Perfected Lirium Pickaxe                           | 6    
+ Ancient Trapsmith's Journal Page #1                | -1   
+ Succulent Meat Sandwich                            | 5    
+ Peerless Cloth                                     | 6    
+ Decayed Lirium Pot                                 | 5    
+ Fine Embergrain Seeds                              | 4    
+ Fine Brick                                         | 4    
+ Overloaded Elenvar Leg Power Source                | 4    
+ Ambrosial Hot Tea                                  | 6    
+ Beginner's Hieroglyphs                             | 1    
+ Simple Unpowered Cloth Module                      | 2    
+ Sturdy Repaired Ancient Gear                       | 3    
+ Overloaded Rough Cloth Head Power Source           | 1    
+ Sturdy Rock                                        | 3    
+ Advanced Stone Diagram Research                    | 5    
+ Fine Embergrain                                    | 4    
+ Deed: Mask - Bug Mask                              | -1   
+ High Quality Fine Cloth Hand Power Source          | 4    
+ Schematic: Perfected Lirium Knife                  | 5    
+ Overloaded Peerless Cloth Module                   | 6    
+ Luminite Hand Power Source                         | 6    
+ Perfected Elenvar Axe                              | 5    
+ Simple Shell                                       | 2    
+ Rough Cloth                                        | 1    
+ Rough Dress                                        | 1    
+ Perfected Ferralith Quill                          | 4    
+ Sturdy Repaired Ancient Spring                     | 3    
+ Overloaded Exquisite Leather Leg Power Source      | 5    
+ Basic Mushroom                                     | 1    
+ Pitch                                              | -1   
+ Perfected Aurumite Cooking Pot Recipe              | 2    
+ Exquisite Cloth Head Power Source                  | 5    
+ Exquisite Embergrain Flour                         | 5    
+ Fine Leather Head Power Source                     | 4    
+ Decayed Aurumite Hammer                            | 2    
+ High Quality Simple Leather Leg Power Source       | 2    
+ Overloaded Rough Cloth Hand Power Source           | 1    
+ Schematic: Perfected Luminite Machete              | 6    
+ High Quality Ferralith Leg Power Source            | 3    
+ Starseeker Researcher's Footwraps                  | 1    
+ Flint Chisel                                       | 1    
+ Simple Wispweave Plant                             | 2    
+ Ambrosial Meat Sandwich                            | 6    
+ Decayed Luminite Chisel                            | 6    
+ Seastorm Tuna Filet                                | 4    
+ Exquisite Chilling Module                          | 5    
+ Succulent Roasted Fish                             | 5    
+ Grass Robe                                         | 1    
+ Pyrelite Ore Concentrate                           | 1    
+ Overloaded Simple Cloth Head Power Source          | 2    
+ Hexmoth Cocoon                                     | -1   
+ Perfected Ferralith Pot                            | 4    
+ Fine Fish and Bulbs                                | 4    
+ Exquisite Shell                                    | 5    
+ Grand Simple Sapphire                              | 2    
+ Sturdy Unpowered Leather Module                    | 3    
+ Basic Starbulb Seeds                               | 1    
+ Overloaded Aurumite Hand Power Source              | 2    
+ Succulent Bread                                    | 5    
+ Peerless Leather                                   | 6    
+ Plain Mushroom Stuffed Bulbs                       | 1    
+ High Quality Lirium Module                         | 5    
+ Overloaded Fine Leather Hand Power Source          | 4    
+ Potted Cypress Sapling                             | 4    
+ Starseeker Student's Emblem                        | 1    
+ Diamond Inlaid Aurumite Leg Power Source           | 2    
+ Beech Seed                                         | 1    
+ Emerald Inlaid Fine Stone Leg Power Source         | 4    
+ Sturdy Fabric                                      | 3    
+ Starseeker Student's Armwraps                      | 1    
+ Fine Diamond                                       | 4    
+ Peerless Plant Fiber                               | 6    
+ High Quality Luminite Leg Power Source             | 6    
+ Power Core                                         | 6    
+ Decayed Ferralith Hoe                              | 3    
+ Overloaded Fine Cloth Hand Power Source            | 4    
+ Fine Raw Bulb Rolls                                | 4    
+ Schematic: Perfected Ferralith Hoe                 | 3    
+ Plain Jam Sandwich                                 | 1    
+ Grand Rough Emerald                                | 1    
+ Sturdy Brick                                       | 3    
+ Ferralith Chisel                                   | 3    
+ High Quality Exquisite Cloth Torso Power Source    | 5    
+ Zesty Roasted Meat                                 | 3    
+ Fine Cloth Head Power Source                       | 4    
+ Tiny Rough Sapphire                                | 1    
+ Lirium Rod                                         | 5    
+ Badly Damaged Head Power Source                    | 1    
+ Diamond Inlaid Ferralith Torso Power Source        | 3    
+ Exquisite Chilling Torso Power Source              | 5    
+ Grand Rough Ruby                                   | 1    
+ Decayed Lirium Quill                               | 5    
+ Decayed Ancient Pickaxe                            | -1   
+ Advanced Stone Carvings                            | 5    
+ Perfected Aurumite Quill                           | 3    
+ Luminite Ingot                                     | 6    
+ Basic Berry                                        | 1    
+ Water Bucket                                       | -1   
+ Massive Exquisite Sapphire                         | 5    
+ Peerless Cloth Hand Power Source                   | 6    
+ Peerless Bait and Shells                           | 6    
+ Rough Dried Pelt                                   | 1    
+ Peerless Cloth Torso Power Source                  | 6    
+ Blacksmith's Key Recipe                            | 1    
+ Luminite Hoe                                       | 6    
+ Decayed Luminite Saw                               | 6    
+ Rough Plant Fiber                                  | 1    
+ Peerless Untreated Plank Output                    | 6    
+ Sapphire Inlaid Sturdy Cloth Head Power Source     | 3    
+ Fine Unpowered Leather Module                      | 4    
+ Black Cobblestone Road Recipe                      | -1   
+ Schematic: Rough Overloaded Cloth Module           | 1    
+ Fine Untreated Plank Output                        | 4    
+ Fine Repaired Ancient Connector                    | 4    
+ Peerless Blank Journal                             | 6    
+ Fine Gem Dust                                      | 4    
+ Perfected Aurumite Pickaxe                         | 3    
+ Massive Simple Diamond                             | 2    
+ Emerald Inlaid Peerless Stone Hand Power Source    | 6    
+ Ruby Inlaid Fine Leather Leg Power Source          | 4    
+ Proficient Stone Diagrams                          | 4    
+ Sturdy Rope                                        | 3    
+ Abyssal Swordfish Scale                            | 6    
+ Emerald Inlaid Peerless Stone Torso Power Source   | 6    
+ Fine Parchment                                     | 4    
+ Deed: Hairstyle - Trailer Handband                 | -1   
+ Emerald Inlaid Fine Stone Module                   | 4    
+ Peerless Starbulb                                  | 6    
+ Wild Grain Seeds                                   | 1    
+ Proficient Study Journal                           | 4    
+ Schematic: Overloaded Luminite Module              | 6    
+ Rough Leather Output                               | 1    
+ Fine Plank Output                                  | 4    
+ Exquisite Berry                                    | 5    
+ Exquisite Wood Log                                 | 5    
+ Succulent Mushroom Skewer                          | 5    
+ Purple Plank Road Recipe                           | -1   
+ Perfected Elenvar Machete                          | 5    
+ Azure Shark Products                               | 5    
+ Exquisite Ruby                                     | 5    
+ Flint Hammer                                       | 1    
+ Coconut Hat                                        | 1    
+ Schematic: Fine Overloaded Stone Module            | 4    
+ Plain Roasted Fish                                 | 1    
+ Perfected Elenvar Pot                              | 5    
+ Developer Rod                                      | 11   
+ Decayed Elenvar Saw                                | 4    
+ Exquisite Forester's Pot                           | 5    
+ Brico's Old Mallet                                 | 1    
+ High Quality Fine Leather                          | 4    
+ Succulent Roasted Meat                             | 5    
+ Novice Stone Carvings                              | 2    
+ Tiny Peerless Sapphire                             | 6    
+ High Quality Simple Leather Module                 | 2    
+ Elenvar Ingot Output                               | 4    
+ Leather Heeled Boots                               | 1    
+ Exquisite Stone Hand Power Source                  | 5    
+ Emerald Inlaid Sturdy Stone Module                 | 3    
+ Peerless Gem Dust                                  | 6    
+ Coralcrest Darter Filet                            | 3    
+ Overloaded Simple Leather Leg Power Source         | 2    
+ Elenvar Hoe                                        | 4    
+ Immortal Sergeant's Cap                            | 5    
+ Ambrosial Fish and Bulbs                           | 6    
+ Sturdy Leather                                     | 3    
+ Comprehensive Hieroglyphs                          | 6    
+ Comprehensive Stone Carvings                       | 6    
+ Developer Quill                                    | 14   
+ Peerless Stone Head Power Source                   | 6    
+ High Quality Peerless Leather                      | 6    
+ Emerald Inlaid Simple Stone Hand Power Source      | 2    
+ Animal Fat                                         | -1   
+ Exquisite Cloth Output                             | 5    
+ Fine Berry Pie                                     | 4    
+ Mark of Heimlich                                   | -1   
+ Peerless Tree Bark                                 | 6    
+ Willow Seed                                        | 3    
+ Cooling Energy                                     | -1   
+ Fine Unpowered Stone Module                        | 4    
+ Savory Bread                                       | 2    
+ Diamond Inlaid Luminite Torso Power Source         | 6    
+ Overloaded Aurumite Module                         | 2    
+ Schematic: Perfected Ferralith Pickaxe             | 3    
+ Pyrelite Saw                                       | 1    
+ Tiny Sturdy Emerald                                | 3    
+ Simple Stone Torso Power Source                    | 2    
+ High Quality Peerless Cloth Head Power Source      | 6    
+ Fine Vibrant Module                                | -1   
+ Potted Pine Sapling                                | 3    
+ Peerless Wispweave Plant                           | 6    
+ Sapphire Inlaid Simple Cloth Module                | 2    
+ Exquisite Spool Of Thread                          | 5    
+ High Quality Elenvar Hand Power Source             | 4    
+ Simple Fertilizer                                  | 2    
+ Overloaded Exquisite Cloth Module                  | 5    
+ Fine Pebbles                                       | 4    
+ Decayed Luminite Knife                             | 6    
+ Plain Trailmix                                     | 1    
+ Deed: Fisher's Boat                                | 1    
+ Sturdy Chilling Module                             | 3    
+ Luminite Axe                                       | 6    
+ Sapphire Inlaid Exquisite Cloth Leg Power Source   | 5    
+ Fine Tannin                                        | 4    
+ Perfected Ferralith Axe                            | 4    
+ Spruce Seed                                        | 3    
+ Decayed Ancient Rod                                | -1   
+ Overloaded Sturdy Leather Module                   | 3    
+ Luminite Torso Power Source                        | 6    
+ Aurumite Scissors                                  | 2    
+ Molten Elenvar                                     | 4    
+ Perfected Lirium Chisel                            | 6    
+ Basic Embergrain                                   | 1    
+ Ruby Inlaid Exquisite Leather Hand Power Source    | 5    
+ Fine Tool Handle                                   | 4    
+ Fine Shell                                         | 4    
+ Ferralith Saw                                      | 3    
+ High Quality Sturdy Cloth Torso Power Source       | 3    
+ Peerless Plank Output                              | 6    
+ Luminite Scissors                                  | 6    
+ Lirium Hammer                                      | 5    
+ Perfected Luminite Pickaxe                         | 7    
+ Aurumite Ore Concentrate                           | 2    
+ Sturdy Glowing Module                              | 3    
+ Peerless Raw Meat                                  | 6    
+ Simple Dried Pelt                                  | 2    
+ Fine Embergrain Flour                              | 4    
+ Basic Tannin                                       | 1    
+ Diamond Inlaid Lirium Torso Power Source           | 5    
+ Exquisite Clay Lump                                | 5    
+ Overloaded Exquisite Cloth Leg Power Source        | 5    
+ Exquisite Large Leather Output                     | 5    
+ Ferralith Pickaxe                                  | 3    
+ Professional's Mallet                              | 1    
+ Pyrelite Axe                                       | 1    
+ Dendro Seed                                        | 2    
+ Schematic: Perfected Elenvar Axe                   | 4    
+ Birch Seed                                         | 1    
+ Dried Simple Flowers                               | 2    
+ Driftwood Crayfish                                 | 2    
+ Perfected Luminite Hammer                          | 7    
+ Peerless Embergrain                                | 6    
+ Crushed Elenvar Ore                                | 4    
+ Uncut Rough Emerald                                | 1    
+ Schematic: Perfected Ferralith Axe                 | 3    
+ Ruby Inlaid Fine Leather Module                    | 4    
+ Basic Fish Oil                                     | 1    
+ High Quality Exquisite Cloth                       | 5    
+ Zesty Bulb Rolls                                   | 3    
+ Exquisite Flower                                   | 5    
+ Exquisite Wispweave Products                       | 5    
+ Overloaded Sturdy Leather Hand Power Source        | 3    
+ Overloaded Peerless Cloth Hand Power Source        | 6    
+ Serpentfish Products                               | 2    
+ Developer Pot                                      | 12   
+ Emberfin Shiner                                    | 2    
+ Potted Birch Sapling                               | 1    
+ Lirium Knife                                       | 5    
+ Mossfin Chub                                       | 4    
+ Potted Spruce Sapling                              | 3    
+ High Quality Exquisite Cloth Leg Power Source      | 5    
+ Developer Knife                                    | 7    
+ Schematic: Perfected Pyrelite Chisel               | 1    
+ Tattered Belt                                      | 1    
+ Exquisite Pebbles Output                           | 5    
+ Simple Wispweave Seeds                             | 2    
+ Starseeker Scribe's Armwraps                       | 3    
+ High Quality Fine Cloth Head Power Source          | 4    
+ Luminite Rod                                       | 6    
+ Grand Simple Diamond                               | 2    
+ Teal Cobblestone Road Recipe                       | -1   
+ Exquisite Repaired Ancient Spring                  | 5    
+ Perfected Lirium Rod                               | 6    
+ Proficient Stone Carvings                          | 4    
+ Sturdy Stone Torso Power Source                    | 3    
+ Aurumite Ingot Output                              | 2    
+ Decayed Ancient Quill                              | -1   
+ Massive Simple Ruby                                | 2    
+ Damaged Ancient Connector                          | -1   
+ Ambrosial Raw Dumpling                             | 6    
+ Exquisite Raw Pelt                                 | 5    
+ Unpowered Aurumite Module                          | 2    
+ Ruby Inlaid Simple Leather Leg Power Source        | 2    
+ Peerless Dried Pelt                                | 6    
+ High Quality Ferralith Torso Power Source          | 3    
+ Leather Dress                                      | 1    
+ Sturdy Chilling Torso Power Source                 | 3    
+ Fine Cooked Berries                                | 4    
+ Rough Unpowered Stone Module                       | 1    
+ Mark of the Twins                                  | -1   
+ Dried Basic Flowers                                | 1    
+ Decayed Pyrelite Bow                               | 1    
+ Potted Oak Sapling                                 | 1    
+ Schematic: Perfected Luminite Axe                  | 6    
+ Diamond Inlaid Ferralith Leg Power Source          | 3    
+ Exquisite Plank Output                             | 5    
+ Simple Cloth                                       | 2    
+ Plain Vegetable Stew                               | 1    
+ Rough Tool Handle                                  | 1    
+ Massive Fine Ruby                                  | 4    
+ Exquisite Tannin                                   | 5    
+ Deed: Mask Pattern - Runic Yellow                  | -1   
+ Ruby Inlaid Fine Leather Torso Power Source        | 4    
+ Uncut Simple Diamond                               | 2    
+ Zesty Mushroom Skewer                              | 3    
+ Ruby Inlaid Fine Leather Hand Power Source         | 4    
+ Overloaded Simple Leather Module                   | 2    
+ Exquisite Pulsing Module                           | -1   
+ Overloaded Rough Leather Head Power Source         | 1    
+ Rough Stone Torso Power Source                     | 1    
+ Fine Blank Journal                                 | 4    
+ Decayed Lirium Hammer                              | 5    
+ Perfected Pyrelite Hammer Recipe                   | 1    
+ Schematic: Peerless Overloaded Leather Module      | 6    
+ Uncut Peerless Ruby                                | 6    
+ Uncut Fine Ruby                                    | 4    
+ Rough Glowing Module                               | 1    
+ Decayed Elenvar Chisel                             | 4    
+ Grand Exquisite Diamond                            | 5    
+ Crushed Sturdy Shells                              | 3    
+ Basic Cloth Footwraps                              | 1    
+ Exquisite Leather Torso Power Source               | 5    
+ High Quality Fine Leather Module                   | 4    
+ Ancient Journal Page #6                            | -1   
+ Aurumite Hoe                                       | 2    
+ Overloaded Aurumite Head Power Source              | 2    
+ Schematic: Perfected Aurumite Saw                  | 2    
+ Ambrosial Roasted Meat                             | 6    
+ Rough Blank Journal                                | 1    
+ Deed: Raft                                         | 1    
+ Unpowered Luminite Module                          | 6    
+ Overloaded Ferralith Hand Power Source             | 3    
+ Exquisite Heated Module                            | 5    
+ Decayed Aurumite Scissors                          | 2    
+ High Quality Exquisite Cloth Module                | 5    
+ Emerald Inlaid Exquisite Stone Torso Power Source  | 5    
+ High Quality Exquisite Cloth Head Power Source     | 5    
+ Peerless Clay Lump                                 | 6    
+ Perfected Pyrelite Bow                             | 2    
+ Fine Meat Sandwich                                 | 4    
+ High Quality Fine Cloth                            | 4    
+ Straw Hat                                          | 1    
+ Succulent Mushroom Stuffed Bulbs                   | 5    
+ Infused Ink                                        | 3    
+ Schematic: Perfected Pyrelite Scissors             | 1    
+ Emerald Inlaid Simple Stone Torso Power Source     | 2    
+ Emberfin Shiner Products                           | 2    
+ Fine Flower                                        | 4    
+ Fine Stone Head Power Source                       | 4    
+ Emerald Inlaid Simple Stone Leg Power Source       | 2    
+ Developer Bow                                      | 8    
+ Stick                                              | -1   
+ Diamond Inlaid Aurumite Hand Power Source          | 2    
+ Perfected Pyrelite Pot                             | 2    
