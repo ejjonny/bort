@@ -1,7 +1,7 @@
 use ::serenity::all::Mentionable;
 use clokwerk::AsyncScheduler;
 use clokwerk::TimeUnits;
-use futures::{Stream, StreamExt};
+use futures::Stream;
 use poise::serenity_prelude as serenity;
 use rusqlite::{params, Connection, Result};
 use std::collections::HashMap;
@@ -38,7 +38,7 @@ async fn main() {
 
     println!("Loading items...");
     let current_dir = env::current_dir().expect("Failed to get current directory");
-    let file_path = current_dir.join("modified_items.txt");
+    let file_path = current_dir.join("items.txt");
     let mut file = File::open(file_path).expect("Failed to open file");
     let mut item_strings = String::new();
     file.read_to_string(&mut item_strings)
@@ -165,8 +165,6 @@ async fn list(
 ) -> Result<(), Error> {
     let username = ctx.author().name.clone();
 
-
-    
     if sale_item == buy_item {
         ctx.say(format!(
             "Invalid listing: Sale item cannot be the same as the buy item\n{}",
@@ -195,7 +193,7 @@ async fn list(
 
     if listing_count >= 15 {
         ctx.say(format!(
-            "You have reached the maximum number of listings (15)\n{}",
+            "You have reached the maximum number of listings (15). You can remove some with /my_listings & /unlist\n{}",
             ctx.author().mention()
         ))
         .await?;
@@ -205,11 +203,21 @@ async fn list(
 
     if ctx.data().item_list.contains_key(&buy_item) && ctx.data().item_list.contains_key(&sale_item)
     {
-        let listing_info = format!(
-            "\nSelling: {} x {} for: {} x {}\nLocation: ({}, {})\n",
-            sale_quantity * offer_count, sale_item, buy_quantity * offer_count, buy_item, location_north, location_east
+        let listing_info = format_listings(
+            vec![Listing {
+            id: 0,
+            sale_quantity,
+            sale_item: sale_item.clone(),
+            buy_quantity,
+            buy_item: buy_item.clone(),
+            location_north,
+            location_east,
+            user: username.clone(),
+            offer_count,
+            }],
+            true,
+            false,
         );
-        println!("{}", listing_info);
         db.execute(
             "INSERT INTO listings (sale_quantity, sale_item, buy_quantity, buy_item, location_north, location_east, username, timestamp, offer_count)
             VALUES (?, ?, ?, ?, ?, ?, ?, CURRENT_TIMESTAMP, ?)",
@@ -454,26 +462,25 @@ async fn autocomplete_item_name<'a>(
         .item_list
         .keys()
         .cloned()
-        .filter(|name| name.starts_with(partial))
+        .filter(|name| name.to_lowercase().starts_with(&partial.to_lowercase()))
         .collect::<Vec<String>>();
-    println!("Autocomplete item name function called");
     futures::stream::iter(item_list)
 }
 
 /// Format a vector of listings into a string for display
 fn format_listings(listings: Vec<Listing>, include_username: bool, include_id: bool) -> String {
     let mut formatted_listings = String::new();
-    let max_listings = 30;
+    let max_listings = 40;
     let mut count = 0;
     for listing in listings {
         if count >= max_listings {
-            formatted_listings.push_str("Too many listings to display all.");
+            formatted_listings.push_str("That's a lot of listings, I won't show them all");
             break;
         }
         let listing_info = format!(
-            "ID: {}\nSale: {} x {}\nBuy: {} x {}\nLocation: ({}, {})\nOffer Count: {}\n{}\n\n",
+            "\n{}Selling: ({} {} for: {} {}) x{}\nLocation: ({}, {})\n{}\n",
             if include_id {
-                listing.id.to_string()
+                format!("ID: {}\n", listing.id.to_string())
             } else {
                 String::new()
             },
@@ -481,11 +488,11 @@ fn format_listings(listings: Vec<Listing>, include_username: bool, include_id: b
             listing.sale_item,
             listing.buy_quantity,
             listing.buy_item,
+            listing.offer_count,
             listing.location_north,
             listing.location_east,
-            listing.offer_count,
             if include_username {
-                format!("User: {}\n", listing.user)
+                format!("User: {}", listing.user)
             } else {
                 String::new()
             }
