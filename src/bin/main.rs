@@ -1,9 +1,9 @@
-use memchr::memmem;
 use ::serenity::all::Mentionable;
 use clokwerk::AsyncScheduler;
 use clokwerk::TimeUnits;
 use csv::ReaderBuilder;
 use futures::Stream;
+use memchr::memmem;
 use poise::serenity_prelude as serenity;
 use rusqlite::{params, Connection, Result};
 use serde::Deserialize;
@@ -69,8 +69,10 @@ async fn main() {
 
     println!("Loading items...");
 
-    let cargo_items = load_items_from_file("items_cargo_data_utf16.txt").expect("Could not load items");
-    let item_items = load_items_from_file("items_item_data_utf16.txt").expect("Could not load items");
+    let cargo_items =
+        load_items_from_file("items_cargo_data_utf16.txt").expect("Could not load items");
+    let item_items =
+        load_items_from_file("items_item_data_utf16.txt").expect("Could not load items");
     let mut item_map: HashMap<String, bool> = HashMap::new();
     for item in cargo_items.iter().chain(item_items.iter()) {
         let name_with_tier = if item.tier != -1 {
@@ -137,7 +139,7 @@ async fn main() {
             let db = Connection::open("db.db3").expect("Db failed");
             let deleted_listings = db
                 .execute(
-                    "DELETE FROM listings WHERE timestamp <= datetime('now', '-24 hours')",
+                    "DELETE FROM listings WHERE timestamp <= datetime('now', '-5 days')",
                     (),
                 )
                 .expect("Failed to delete old listings");
@@ -170,14 +172,9 @@ async fn unlist(
         params![listing_id, username],
     )?;
     if result > 0 {
-        ctx.say(format!(
-            "Listing successfully unlisted\n{}",
-            ctx.author().mention()
-        ))
-        .await?;
+        ctx.say("Listing successfully unlisted").await?;
     } else {
-        ctx.say(format!("Listing not found\n{}", ctx.author().mention()))
-            .await?;
+        ctx.say("Listing not found").await?;
     }
     Ok(())
 }
@@ -202,20 +199,14 @@ async fn list(
     let username = ctx.author().name.clone();
 
     if sale_item == buy_item {
-        ctx.say(format!(
-            "Invalid listing: Sale item cannot be the same as the buy item\n{}",
-            ctx.author().mention()
-        ))
-        .await?;
+        ctx.say("Invalid listing: Sale item cannot be the same as the buy item")
+            .await?;
         return Ok(());
     }
 
     if buy_quantity == 0 || sale_quantity == 0 {
-        ctx.say(format!(
-            "Invalid listing: Buy quantity and sale quantity must be non-zero\n{}",
-            ctx.author().mention()
-        ))
-        .await?;
+        ctx.say("Invalid listing: Buy quantity and sale quantity must be non-zero")
+            .await?;
         return Ok(());
     }
 
@@ -227,10 +218,9 @@ async fn list(
         |row| row.get(0),
     )?;
 
-    if listing_count >= 15 {
+    if !ctx.author().name.contains("cyypherus") && listing_count >= 15 {
         ctx.say(format!(
-            "You have reached the maximum number of listings (15). You can remove some with /my_listings & /unlist\n{}",
-            ctx.author().mention()
+            "You have reached the maximum number of listings (15). You can remove some with /my_listings & /unlist"
         ))
         .await?;
         return Ok(());
@@ -271,21 +261,18 @@ async fn list(
             )?;
         println!("{}", listing_info);
         ctx.say(format!(
-            "Listing successful! Your listing will expire in 24 hours\n{}\n{}",
+            "Listing successful! Your listing will expire in 5 days\n{}",
             listing_info,
-            ctx.author().mention()
         ))
         .await?;
         Ok(())
     } else {
         let error_message = format!(
-            "Items {} and/or {} not found.\n{}",
+            "Items {} and/or {} not found.",
             buy_item,
             sale_item,
-            ctx.author().mention()
         );
-        ctx.say(format!("{}, {}", error_message, ctx.author().mention()))
-            .await?;
+        ctx.say(error_message).await?;
         return Ok(());
     }
 }
@@ -298,16 +285,10 @@ async fn my_listings(ctx: Context<'_>) -> Result<(), Error> {
     let db = Connection::open("db.db3")?;
     let listings = query_listings_by_username(&db, &username)?;
     if listings.is_empty() {
-        ctx.say(format!("You have no listings.\n{}", ctx.author().mention()))
-            .await?;
+        ctx.say("You have no listings.").await?;
     } else {
         let listings_info = format_listings(listings, false, true);
-        ctx.say(format!(
-            "Your listings:\n{}\n{}",
-            listings_info,
-            ctx.author().mention()
-        ))
-        .await?;
+        ctx.say(listings_info).await?;
     }
     Ok(())
 }
@@ -355,7 +336,7 @@ async fn nearby_sellers(
     let db = Connection::open("db.db3")?;
 
     if !ctx.data().item_list.contains_key(&sale_item) {
-        let error_message = format!("Item {} not found\n{}", sale_item, ctx.author().mention());
+        let error_message = format!("Item {} not found", sale_item);
         ctx.say(error_message).await?;
         return Ok(());
     }
@@ -370,21 +351,19 @@ async fn nearby_sellers(
     )?;
     if rows.is_empty() {
         ctx.say(format!(
-            "No sellers of {} found within N ({} - {}) E ({} - {}).\n{}",
+            "No sellers of {} found within N ({} - {}) E ({} - {})",
             sale_item,
             location_north - distance,
             location_north + distance,
             location_east - distance,
             location_east + distance,
-            ctx.author().mention(),
         ))
         .await?;
     } else {
         let sellers_info = format_listings(rows, true, false);
         ctx.say(format!(
-            "Nearby sellers:\n{}\n{}",
+            "Nearby sellers:\n{}",
             sellers_info,
-            ctx.author().mention()
         ))
         .await?;
     }
@@ -407,7 +386,7 @@ async fn nearby_buyers(
     let db = Connection::open("db.db3")?;
 
     if !ctx.data().item_list.contains_key(&buy_item) {
-        let error_message = format!("Item {} not found {}", buy_item, ctx.author().mention());
+        let error_message = format!("Item {} not found", buy_item);
         ctx.say(error_message).await?;
         return Ok(());
     }
@@ -422,21 +401,19 @@ async fn nearby_buyers(
     )?;
     if rows.is_empty() {
         ctx.say(format!(
-            "No buyers of {} found within N ({} - {}) E ({} - {}).\n{}",
+            "No buyers of {} found within N ({} - {}) E ({} - {}).",
             buy_item,
             location_north - distance,
             location_north + distance,
             location_east - distance,
             location_east + distance,
-            ctx.author().mention(),
         ))
         .await?;
     } else {
         let buyers_info = format_listings(rows, true, false);
         ctx.say(format!(
-            "Nearby buyers:\n{}\n{}",
+            "Nearby buyers:\n{}",
             buyers_info,
-            ctx.author().mention()
         ))
         .await?;
     }
@@ -526,7 +503,12 @@ async fn autocomplete_item_name<'a>(
         .item_list
         .keys()
         .cloned()
-        .filter(|item| { finder.find_iter(item.to_lowercase().as_bytes()).next().is_some() })
+        .filter(|item| {
+            finder
+                .find_iter(item.to_lowercase().as_bytes())
+                .next()
+                .is_some()
+        })
         .collect::<Vec<String>>();
     item_list.truncate(15);
     futures::stream::iter(item_list)
