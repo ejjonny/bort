@@ -12,6 +12,27 @@ use std::io::Read;
 use std::time::Duration;
 use std::{env, fs::File};
 
+// Interacting with BRT:
+// 1. /list - Post a listing!
+//    - Description: Creates a new listing with the specified details. The sale_quantity and buy_quantity should be non-zero. The offer_count is optional and defaults to 1.
+//    - Example: /list sale_quantity: 3 sale_item: Rough Cloth (T1) buy_quantity: 100 buy_item: Hex Coin location_north: 1000 location_east: 1000 offer_count: 20
+//
+// 2. /unlist - Unlist a listing
+//    - Usage: /unlist <listing_id>
+//    - Description: Removes the listing with the specified ID. Only the owner of the listing can unlist it.
+//
+// 3. /my_listings - Check your own listings
+//    - Usage: /my_listings
+//    - Description: Displays a list of your own listings.
+//
+// 4. /nearby_sellers - Search nearby sellers
+//    - Usage: /nearby_sellers <sale_item> <location_north> <location_east> <distance>
+//    - Description: Searches for sellers of the specified item within the specified distance from the given location.
+//
+// 5. /nearby_buyers - Search nearby buyers
+//    - Usage: /nearby_buyers <buy_item> <location_north> <location_east> <distance>
+//    - Description: Searches for buyers of the specified item within the specified distance from the given location.
+
 struct Data {
     item_list: HashMap<String, bool>,
 }
@@ -141,6 +162,7 @@ async fn unlist(
     ctx: Context<'_>,
     #[description = "listing ID"] listing_id: i32,
 ) -> Result<(), Error> {
+    ctx.defer_ephemeral().await?;
     let username = ctx.author().name.clone();
     let db = Connection::open("db.db3")?;
     let result = db.execute(
@@ -176,6 +198,7 @@ async fn list(
     #[description = "location east"] location_east: i32,
     #[description = "offer count"] offer_count: Option<i32>,
 ) -> Result<(), Error> {
+    ctx.defer_ephemeral().await?;
     let username = ctx.author().name.clone();
 
     if sale_item == buy_item {
@@ -270,6 +293,7 @@ async fn list(
 /// Check your own listings
 #[poise::command(slash_command)]
 async fn my_listings(ctx: Context<'_>) -> Result<(), Error> {
+    ctx.defer_ephemeral().await?;
     let username = ctx.author().name.clone();
     let db = Connection::open("db.db3")?;
     let listings = query_listings_by_username(&db, &username)?;
@@ -326,6 +350,7 @@ async fn nearby_sellers(
     #[description = "location east"] location_east: i32,
     #[description = "distance"] distance: i32,
 ) -> Result<(), Error> {
+    ctx.defer_ephemeral().await?;
     // Search for listings within distance of location
     let db = Connection::open("db.db3")?;
 
@@ -377,6 +402,7 @@ async fn nearby_buyers(
     #[description = "location east"] location_east: i32,
     #[description = "distance"] distance: i32,
 ) -> Result<(), Error> {
+    ctx.defer_ephemeral().await?;
     // Search for listings within distance of location
     let db = Connection::open("db.db3")?;
 
