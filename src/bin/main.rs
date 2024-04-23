@@ -360,7 +360,7 @@ async fn nearby_sellers(
         ))
         .await?;
     } else {
-        let sellers_info = format_listings(rows, true, false);
+        let sellers_info = format_listings(rows, false, false);
         ctx.say(format!(
             "Nearby sellers:\n{}",
             sellers_info,
@@ -410,7 +410,7 @@ async fn nearby_buyers(
         ))
         .await?;
     } else {
-        let buyers_info = format_listings(rows, true, false);
+        let buyers_info = format_listings(rows, false, false);
         ctx.say(format!(
             "Nearby buyers:\n{}",
             buyers_info,
