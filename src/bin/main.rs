@@ -150,28 +150,28 @@ async fn main() {
 async fn help(ctx: Context<'_>) -> Result<(), Error> {
     ctx.defer_ephemeral().await?;
     let help_message = "
-    Use a forward slash '/' to use BRT commands. BRT will respond in DMs or server channels.
+    Use a forward slash '/' to use BRT commands. BRT will respond in DMs or server channels. 
 
-    1. /list - Creates a new listing to advertise to other players. Offer count is optional!
-        (ex: /list sale_quantity: 1 sale_item: Rough Cloth (T1) buy_quantity: 100 buy_item: Hex Coin location_north: 1000 location_east: 1000)
+    1. /list - Creates a new listing to advertise to other players. Offer count is optional! 
+        (ex: /list offer_quantity: 1 offer_item: Rough Cloth (T1) request_quantity: 100 request_item: Hex Coin location_north: 1000 location_east: 1000)
 
-    2. /unlist - Remove one of your own listings. Use /my_listings to get the IDs of your listings.
+    2. /unlist - Remove one of your own listings. Use /my_listings to get the IDs of your listings. 
         (ex: /unlist listing_id: 10)
 
-    3. /info - Get more information about a listing by ID.
+    3. /info - Get more information about a listing by ID. 
         (ex: /info listing_id: 10)
 
-    4. /my_listings - Display a list of your own listings
+    4. /my_listings - Display a list of your own listings. 
         (ex: /my_listings)
 
-    5. /nearby_listings - Search nearby for any available listings.
+    5. /nearby_listings - Search nearby for any available listings. 
         (ex: /nearby_listings location_north: 1000 location_east: 1000 distance: 100)
 
-    6. /nearby_sellers - Search nearby for users interested in selling the specified item.
-        (/nearby_sellers sale_item: Rough Cloth (T1) location_north: 1000 location_east: 1000 distance: 100)
+    6. /nearby_sellers - Search nearby for users interested in selling the specified item. 
+        (/nearby_sellers item: Rough Cloth (T1) location_north: 1000 location_east: 1000 distance: 100)
 
-    8. /nearby_buyers - Search nearby for users interested in buying the specified item.
-        (ex: /nearby_buyers buy_item: Rough Cloth (T1) location_north: 1000 location_east: 1000 distance: 100)
+    8. /nearby_buyers - Search nearby for users interested in buying the specified item. 
+        (ex: /nearby_buyers item: Rough Cloth (T1) location_north: 1000 location_east: 1000 distance: 100)
 
     8. /help - Display this message :)
     ";
@@ -384,8 +384,8 @@ async fn nearby_listings(
 async fn nearby_sellers(
     ctx: Context<'_>,
     #[autocomplete = "autocomplete_item_name"]
-    #[description = "sale item"]
-    sale_item: String,
+    #[description = "item"]
+    item: String,
     #[description = "location north"] location_north: i32,
     #[description = "location east"] location_east: i32,
     #[description = "distance"] distance: i32,
@@ -395,15 +395,15 @@ async fn nearby_sellers(
     // Search for listings within distance of location
     let db = Connection::open("db.db3")?;
 
-    if !ctx.data().item_list.contains_key(&sale_item) {
-        let error_message = format!("Item {} not found", sale_item);
+    if !ctx.data().item_list.contains_key(&item) {
+        let error_message = format!("Item {} not found", item);
         ctx.say(error_message).await?;
         return Ok(());
     }
 
     let rows = get_listings_within_distance(
         &db,
-        &sale_item,
+        &item,
         location_north,
         location_east,
         distance,
@@ -412,7 +412,7 @@ async fn nearby_sellers(
     if rows.is_empty() {
         ctx.say(format!(
             "No sellers of {} found within N ({} - {}) E ({} - {})",
-            sale_item,
+            item,
             location_north - distance,
             location_north + distance,
             location_east - distance,
@@ -432,8 +432,8 @@ async fn nearby_sellers(
 async fn nearby_buyers(
     ctx: Context<'_>,
     #[autocomplete = "autocomplete_item_name"]
-    #[description = "buy item"]
-    buy_item: String,
+    #[description = "item"]
+    item: String,
     #[description = "location north"] location_north: i32,
     #[description = "location east"] location_east: i32,
     #[description = "distance"] distance: i32,
@@ -443,15 +443,15 @@ async fn nearby_buyers(
     // Search for listings within distance of location
     let db = Connection::open("db.db3")?;
 
-    if !ctx.data().item_list.contains_key(&buy_item) {
-        let error_message = format!("Item {} not found", buy_item);
+    if !ctx.data().item_list.contains_key(&item) {
+        let error_message = format!("Item {} not found", item);
         ctx.say(error_message).await?;
         return Ok(());
     }
 
     let rows = get_listings_within_distance(
         &db,
-        &buy_item,
+        &item,
         location_north,
         location_east,
         distance,
@@ -460,7 +460,7 @@ async fn nearby_buyers(
     if rows.is_empty() {
         ctx.say(format!(
             "No buyers of {} found within N ({} - {}) E ({} - {}).",
-            buy_item,
+            item,
             location_north - distance,
             location_north + distance,
             location_east - distance,
@@ -488,7 +488,7 @@ async fn info(
     if let Some(listing) = listing {
         let mut info = format!("```Description: {}\n", listing.description);
         info.push_str(&format!(
-            "Offer: {} {}\nRequest: {} {}\nLocation: N:{} E:{}\nStock: {}\nUser: {}\n",
+            "Offer: {} {}\nRequest: {} {}\nLocation: N:{} E:{}\nStock: {}{}\n",
             listing.offer_quantity,
             listing.offer_item,
             listing.request_quantity,
@@ -496,7 +496,11 @@ async fn info(
             listing.location_north,
             listing.location_east,
             listing.offer_count,
-            listing.user,
+            if listing.user != "cyypherus" {
+                format!("\nUser: {}\n", listing.user)
+            } else {
+                "".to_string()
+            },
         ));
         info.push_str("```");
         ctx.say(info).await?;
