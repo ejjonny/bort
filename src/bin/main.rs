@@ -47,7 +47,7 @@ struct Item {
 async fn main() {
     println!("Starting up...");
     dotenv::dotenv().ok();
-    let token = env::var("DISCORD_TOKEN_DEV").expect("Expected a token in the environment");
+    let token = env::var("DISCORD_TOKEN").expect("Expected a token in the environment");
 
     println!("Loading items...");
 
