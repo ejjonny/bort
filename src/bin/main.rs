@@ -119,27 +119,27 @@ async fn main() {
     .expect("Table create failed");
 
 
-    let mut scheduler = AsyncScheduler::new();
-    scheduler.every(10.minutes()).run(move || {
-        Box::pin(async move {
-            println!("Cleaning up old listings");
-            let db = Connection::open("db.db3").expect("Db failed");
-            let deleted_listings = db
-                .execute(
-                    "DELETE FROM listings WHERE timestamp <= datetime('now', '-5 days')",
-                    (),
-                )
-                .expect("Failed to delete old listings");
-            println!("Deleted {} listings", deleted_listings);
-        })
-    });
+    // let mut scheduler = AsyncScheduler::new();
+    // scheduler.every(10.minutes()).run(move || {
+    //     Box::pin(async move {
+    //         println!("Cleaning up old listings");
+    //         let db = Connection::open("db.db3").expect("Db failed");
+    //         let deleted_listings = db
+    //             .execute(
+    //                 "DELETE FROM listings WHERE timestamp <= datetime('now', '-5 days')",
+    //                 (),
+    //             )
+    //             .expect("Failed to delete old listings");
+    //         println!("Deleted {} listings", deleted_listings);
+    //     })
+    // });
 
-    tokio::spawn(async move {
-        loop {
-            scheduler.run_pending().await;
-            tokio::time::sleep(Duration::from_millis(100)).await;
-        }
-    });
+    // tokio::spawn(async move {
+    //     loop {
+    //         scheduler.run_pending().await;
+    //         tokio::time::sleep(Duration::from_millis(100)).await;
+    //     }
+    // });
 
     println!("Awaiting messages...");
     client.unwrap().start().await.unwrap();
@@ -290,7 +290,7 @@ async fn list(
         )?;
         println!("{}", listing_info);
         ctx.say(format!(
-            "Listing successful! Your listing will expire in 5 days\n{}",
+            "Listing successful! Thanks for using brt :)\n{}",
             listing_info,
         ))
         .await?;
